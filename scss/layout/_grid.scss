@@ -1,8 +1,14 @@
+@use '../util/' as u;
+
 .grid {
   display: grid;
   grid-template-columns: 1fr;
   width: min(100% - 2rem, 1140px);
   margin-inline: auto;
+
+  @include u.breakpoint(large) {
+    background-color: var(--clr-accent-secundary);
+  }
 }
 
 .header {

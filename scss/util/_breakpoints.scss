@@ -1,7 +1,9 @@
+@use 'functions' as f;
+
 $breakpoint-up: (
-  "medium": 43.75em, 
-  "large": 56.25em,
-  "xlarge": 90em
+  "medium": f.em(700), 
+  "large": f.em(900),
+  "xlarge": f.em(1440)
 );
 
 @mixin breakpoint($size) {

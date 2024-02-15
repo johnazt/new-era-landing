@@ -3,15 +3,10 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  width: min(100% - 2rem, 1140px);
+  width: min(100% - u.rem(32), u.rem(1140));
   margin-inline: auto;
 
   @include u.breakpoint(large) {
     background-color: var(--clr-accent-secundary);
   }
-}
-
-.header {
-  background-color: black;
-  color: white;
 }

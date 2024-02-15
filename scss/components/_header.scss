@@ -1,1 +1,6 @@
+@use '../util/' as u;
 
+.header__logo {
+  width: u.rem(40);
+  height: u.rem(40);
+}

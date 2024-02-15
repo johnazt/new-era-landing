@@ -1,0 +1,11 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: min(100% - 2rem, 1140px);
+  margin-inline: auto;
+}
+
+.header {
+  background-color: black;
+  color: white;
+}

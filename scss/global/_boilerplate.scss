@@ -1,8 +1,4 @@
-@use 'util' as u; 
-
-:root {
-  --some-color-example: hsl(234, 80%, 81%);
-}
+@use '../util' as u;
 
 html {
   box-sizing: border-box;
@@ -18,4 +14,6 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: u.$font;
+  background-color: var(--some-color-example);
 }

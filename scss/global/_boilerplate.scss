@@ -1,5 +1,11 @@
 @use '../util' as u;
 
+:root {
+  --rounded-sm: 10px;
+  --rounded-md: 15px;
+  --rounded-lg: 25px
+}
+
 html {
   box-sizing: border-box;
   font-size: 100%;
@@ -18,6 +24,10 @@ ul {
 
 li {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 img {

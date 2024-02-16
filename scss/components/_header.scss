@@ -23,4 +23,17 @@
       display: none;
     }
   }
+
+  &__btn {
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+    font-weight: 600;
+    border-radius: var(--rounded-lg);
+    padding: u.em(10) u.em(20);
+    display: none;
+
+    @include u.breakpoint(large) {
+      display: block;
+    }
+  }
 }

@@ -3,6 +3,7 @@
 .header-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: min(100% - u.rem(32), u.rem(1140));
   margin-inline: auto;
   padding: u.em(16);

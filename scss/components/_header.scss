@@ -12,6 +12,17 @@
     display: none;
      @include u.breakpoint(large) {
       display: flex;
+      gap: u.rem(30);
+      justify-content: center;
+    }
+  }
+
+  &__li {
+    color: var(--clr-text-gray);
+    transition: color .25s ease-in-out;
+    &:hover {
+      color: var(--clr-white);
+      transition: color .25s ease-in-out;
     }
   }
 
@@ -29,7 +40,7 @@
     color: var(--clr-black);
     font-weight: 600;
     border-radius: var(--rounded-lg);
-    padding: u.em(10) u.em(20);
+    padding: u.em(10) u.em(15);
     display: none;
 
     @include u.breakpoint(large) {

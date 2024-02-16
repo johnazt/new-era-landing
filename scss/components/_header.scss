@@ -3,14 +3,24 @@
 .header {
   background-color: var(--clr-black-opacity);
 
-}
+  &__logo {
+    width: u.rem(30);
+    height: u.rem(30);
+  }
 
-.header__logo {
-  width: u.rem(30);
-  height: u.rem(30);
-}
+  &__nav {
+    display: none;
+     @include u.breakpoint(large) {
+      display: flex;
+    }
+  }
 
-.header__menu-icon {
-  width: u.rem(30);
-  height: u.rem(30);
+  &__menu-icon {
+    width: u.rem(30);
+    height: u.rem(30);
+
+    @include u.breakpoint(large) {
+      display: none;
+    }
+  }
 }

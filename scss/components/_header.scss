@@ -41,10 +41,16 @@
     font-weight: 600;
     border-radius: var(--rounded-lg);
     padding: u.em(10) u.em(15);
-    display: none;
 
     @include u.breakpoint(large) {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
+  }
+
+  &__arrow-icon {
+    width: u.rem(20);
+    height: u.rem(20);
   }
 }

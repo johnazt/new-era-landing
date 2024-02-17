@@ -3,11 +3,11 @@
 .header {
   background-color: var(--clr-black-opacity);
 
-  &__content {
+  &__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: u.em(16);
+    padding: u.em(16) 0;
 
     @include u.breakpoint(large) {
       margin-top: u.rem(40);
@@ -32,6 +32,7 @@
   &__li {
     color: var(--clr-text-gray);
     transition: color .25s ease-in-out;
+    cursor: pointer;
 
     &:hover {
       color: var(--clr-white);

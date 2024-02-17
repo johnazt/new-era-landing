@@ -3,9 +3,25 @@
 
 body {
   font-size: u.rem(15);
+  font-weight: 400;
 }
 
 h1 {
   font-weight: 600;
-  font-size: clamp(u.rem(30), 0.524390243902439rem + 4.878048780487805vw, u.rem(64));
+font-size: clamp(u.rem(30), 0.8942307692307693rem + 4.358974358974359vw, u.rem(64));
+}
+
+h2 {
+  font-weight: 600;
+font-size: clamp(u.rem(24), 0.9230769230769231rem + 2.564102564102564vw,u.rem(44));
+}
+
+h3 {
+ font-weight: 600;
+font-size: clamp(u.rem(20), 0.9038461538461539rem + 1.5384615384615385vw, u.rem(32));
+}
+
+.fs--lg {
+  font-weight: 200;
+font-size: clamp(u.rem(16), 0.9423076923076923rem + 0.2564102564102564vw, u.rem(18));
 }

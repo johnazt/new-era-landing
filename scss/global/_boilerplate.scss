@@ -1,3 +1,5 @@
+@use '../util/' as u;
+
 :root {
   --rounded-sm: 10px;
   --rounded-md: 15px;
@@ -40,3 +42,7 @@ img {
   object-fit: cover;
 }
 
+.wrapper {
+  width: min(calc(100% - u.rem(30)), u.rem(1140));
+  margin-inline: auto;
+}

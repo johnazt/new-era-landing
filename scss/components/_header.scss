@@ -3,6 +3,17 @@
 .header {
   background-color: var(--clr-black-opacity);
 
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: u.em(16);
+
+    @include u.breakpoint(large) {
+      margin-top: u.rem(40);
+    }
+  }
+
   &__logo {
     width: u.rem(30);
     height: u.rem(30);
@@ -10,7 +21,8 @@
 
   &__nav {
     display: none;
-     @include u.breakpoint(large) {
+
+    @include u.breakpoint(large) {
       display: flex;
       gap: u.rem(30);
       justify-content: center;
@@ -20,6 +32,7 @@
   &__li {
     color: var(--clr-text-gray);
     transition: color .25s ease-in-out;
+
     &:hover {
       color: var(--clr-white);
       transition: color .25s ease-in-out;

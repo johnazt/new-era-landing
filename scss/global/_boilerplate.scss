@@ -4,15 +4,17 @@
   --rounded-lg: 25px
 }
 
-html {
-  box-sizing: border-box;
-  font-size: 100%;
-}
-
 *,
 *::before, 
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Outfit, Arial, Helvetica, sans-serif;
+  background-color: var(--clr-bg-darkest);
+  color: var(--clr-white);
 }
 
 ul {
@@ -34,10 +36,3 @@ img {
   object-fit: cover;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  // font-family: u.$font;
-  background-color: var(--clr-bg-darkest);
-  color: var(--clr-white);
-}

@@ -1,0 +1,11 @@
+@use '../util/' as u;
+
+
+body {
+  font-size: u.rem(15);
+}
+
+h1 {
+  font-weight: 600;
+  font-size: clamp(u.rem(30), 0.524390243902439rem + 4.878048780487805vw, u.rem(64));
+}

@@ -51,3 +51,13 @@ img {
   width: min(calc(100% - u.rem(30)), u.rem(1140));
   margin-inline: auto;
 }
+
+// Accesibility class
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

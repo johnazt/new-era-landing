@@ -1,10 +1,10 @@
 @use '../util/' as u;
 
 .hero__swiper {
-  width: min(calc(100% - u.rem(32)), u.rem(840));
-  margin-inline: auto;
-  padding: u.rem(50) u.rem(10);
   position: relative;
+  width: min(calc(100% - u.rem(32)), u.rem(840));
+  padding: u.rem(50) u.rem(10);
+  margin-inline: auto;
 
   &::before {
     content: "";
@@ -29,4 +29,14 @@
     object-fit: fill;
     text-align: center;
   }
+
+  &_paragraph {
+    text-align: center;
+    color: var(--clr-gray);
+    font-weight: 400;
+  }
+}
+
+.swiper-wrapper {
+  margin-bottom: u.rem(80)
 }

@@ -22,6 +22,14 @@
         border-radius: var(--rounded-lg);
         margin-inline-end: 1em;
         font-size: 11px;
+        transition-property: background;
+        transition: .25s ease-in-out;
+
+        &:hover {
+            background: var(--clr-purple);
+            transition-property: background;
+            transition: .25s ease-in-out;
+        }
     }
 
     &__title {

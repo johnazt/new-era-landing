@@ -9,9 +9,11 @@
     }
 
     &__message-top {
+        display: inline-block;
         background: var(--clr-white-opacity);
         border-radius: var(--rounded-lg);
         padding: u.em(15) u.em(22);
+        margin-bottom: u.rem(45);
     }
 
     &__message-read-it {

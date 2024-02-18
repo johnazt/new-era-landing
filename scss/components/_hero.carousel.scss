@@ -3,6 +3,19 @@
 .hero__swiper {
   width: min(calc(100% - u.rem(32)), u.rem(840));
   margin-inline: auto;
+  background-color: var(--clr-black-opacity);
+  padding: u.rem(50);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: radial-gradient(at center top, var(--clr-dark-light) 0, var(--clr-black-strong) 50%)
+  }
 
   &_image {
     height: 40px;

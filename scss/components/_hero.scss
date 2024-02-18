@@ -8,6 +8,22 @@
         padding-top: u.rem(55);
     }
 
+    &__message-top {
+        background: var(--clr-white-opacity);
+        border-radius: var(--rounded-lg);
+        padding: u.em(15) u.em(22);
+    }
+
+    &__message-read-it {
+        background: var(--clr-black);
+        color: var(--clr-white);
+        font-weight: 600;
+        padding: u.em(12) u.em(20);
+        border-radius: var(--rounded-lg);
+        margin-inline-end: 1em;
+        font-size: 11px;
+    }
+
     &__title {
         letter-spacing: u.rem(-2);
     }

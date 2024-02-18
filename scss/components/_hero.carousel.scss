@@ -3,6 +3,11 @@
 .hero__swiper {
   width: min(calc(100% - u.rem(32)), u.rem(840));
   margin-inline: auto;
-  height: 200px;
 
+  &_image {
+    height: 40px;
+    width: 100%;
+    object-fit: fill;
+    text-align: center;
+  }
 }

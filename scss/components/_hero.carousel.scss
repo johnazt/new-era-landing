@@ -1,6 +1,8 @@
 @use '../util/' as u;
 
-.swiper {
-  width: min(calc(100% - u.rem(32)), u.rem(1000));
+.hero__swiper {
+  width: min(calc(100% - u.rem(32)), u.rem(840));
+  margin-inline: auto;
   height: 200px;
+
 }

@@ -27,6 +27,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["sass", "npm:1.70.0"],\
+          ["swiper", "npm:11.0.6"],\
           ["vite", "virtual:0bc9ac133e2593bdfabcd17128fd2b783072b143d7120f976804cabe8ed742f561d2ee362b595893005b6dbcd2ecf49ca1015660c43b9b16204e3f5012dfb87e#npm:5.1.2"]\
         ],\
         "linkType": "SOFT"\
@@ -1168,6 +1169,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["new-era-landing", "workspace:."],\
           ["sass", "npm:1.70.0"],\
+          ["swiper", "npm:11.0.6"],\
           ["vite", "virtual:0bc9ac133e2593bdfabcd17128fd2b783072b143d7120f976804cabe8ed742f561d2ee362b595893005b6dbcd2ecf49ca1015660c43b9b16204e3f5012dfb87e#npm:5.1.2"]\
         ],\
         "linkType": "SOFT"\
@@ -1489,6 +1491,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["strip-ansi", "npm:7.1.0"],\
           ["ansi-regex", "npm:6.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["swiper", [\
+      ["npm:11.0.6", {\
+        "packageLocation": "../../../../.yarn/berry/cache/swiper-npm-11.0.6-f58772ff1e-10c0.zip/node_modules/swiper/",\
+        "packageDependencies": [\
+          ["swiper", "npm:11.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\

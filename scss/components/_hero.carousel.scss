@@ -1,4 +1,6 @@
+@use '../util/' as u;
+
 .swiper {
-  width: 600px;
-  height: 300px;
+  width: min(calc(100% - u.rem(32)), u.rem(1000));
+  height: 200px;
 }

@@ -1,0 +1,34 @@
+@use '../util/' as u;
+
+.hero {
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: u.rem(5);
+        width: u.rem(145);
+        background: var(--clr-white);
+        color: var(--clr-black);
+        font-weight: 600;
+        border-radius: var(--rounded-lg);
+        padding: u.em(10) u.em(15);
+        transition: all .25s ease-in-out;
+
+        &:hover {
+            background: linear-gradient(to top, var(--clr-black), var(--clr-purple));
+            color: var(--clr-white);
+            transition: all .25s ease-in-out;
+
+            img {
+                content: url('../../assets/images/arrow-icon-light.png');
+                transition: all .25s ease-in-out;
+            }
+        }
+    }
+
+    &__arrow-icon {
+        width: u.rem(20);
+        height: u.rem(20);
+    }
+}

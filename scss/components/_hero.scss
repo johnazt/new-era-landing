@@ -2,6 +2,14 @@
 
 .hero {
 
+    &__content {
+        width: min(calc(100% - u.rem(32)), u.rem(650));
+        margin-inline: auto;
+    }
+
+    &__title {
+        letter-spacing: u.rem(-2);
+    }
 
     &__arrow-icon {
         width: u.rem(20);

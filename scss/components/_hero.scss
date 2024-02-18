@@ -6,6 +6,7 @@
         width: min(calc(100% - u.rem(32)), u.rem(650));
         margin-inline: auto;
         padding-top: u.rem(55);
+        margin-bottom: u.rem(55);
     }
 
     &__message-top {
@@ -14,6 +15,8 @@
         border-radius: var(--rounded-lg);
         padding: u.em(15) u.em(22);
         margin-bottom: u.rem(45);
+        color: var(--clr-gray);
+        font-weight: 400;
     }
 
     &__message-read-it {
@@ -36,6 +39,14 @@
 
     &__title {
         letter-spacing: u.rem(-2);
+        margin-bottom: u.rem(45);
+    }
+
+    &__text {
+        color: var(--clr-gray);
+        font-weight: 400;
+        width: min(calc(100% - u.rem(32)), u.rem(500));
+        margin-bottom: u.rem(55);
     }
 
     &__arrow-icon {

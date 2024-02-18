@@ -3,7 +3,7 @@
 .hero__swiper {
   width: min(calc(100% - u.rem(32)), u.rem(840));
   margin-inline: auto;
-  padding: u.rem(50);
+  padding: u.rem(50) u.rem(10);
   position: relative;
 
   &::before {

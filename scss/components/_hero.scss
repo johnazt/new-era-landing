@@ -6,14 +6,15 @@
         width: min(calc(100% - u.rem(32)), u.rem(650));
         margin-inline: auto;
         padding-top: u.rem(55);
-        margin-bottom: u.rem(140);
+        margin-bottom: clamp(u.rem(70), 2.2750000000000004rem + 9.333333333333332vw, u.rem(140));
     }
 
     &__message-top {
         display: inline-block;
         background: var(--clr-white-opacity);
         border-radius: var(--rounded-lg);
-        padding: u.em(15) u.em(22);
+        padding: u.em(15) clamp(u.rem(15), 0.7275rem + 0.9333333333333332vw, u.rem(22));
+        ;
         margin-bottom: u.rem(45);
         color: var(--clr-gray);
         font-weight: 400;

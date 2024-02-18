@@ -61,3 +61,11 @@ img {
   height: 1px;
   overflow: hidden;
 }
+
+.break-word {
+  display: block;
+
+  @include u.breakpoint(medium) {
+    display: none;
+  }
+}

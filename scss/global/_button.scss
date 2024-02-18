@@ -17,7 +17,7 @@
     }
 
     &:hover {
-        background: linear-gradient(to top, var(--clr-black), var(--clr-purple));
+        background: var(--clr-dark-mid);
         color: var(--clr-white);
         transition: all .25s ease-in-out;
 

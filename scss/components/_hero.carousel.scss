@@ -3,7 +3,6 @@
 .hero__swiper {
   width: min(calc(100% - u.rem(32)), u.rem(840));
   margin-inline: auto;
-  background-color: var(--clr-black-opacity);
   padding: u.rem(50);
   position: relative;
 
@@ -14,7 +13,14 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background: radial-gradient(at center top, var(--clr-dark-light) 0, var(--clr-black-strong) 50%)
+    border-top: 2px solid;
+    border-image: radial-gradient(circle,
+        var(--clr-gray) 0%,
+        var(--clr-dark-mid) 50%,
+        rgb(var(--clr-black-strong)) 100%) 1 0 0 0;
+    background: radial-gradient(at center top,
+        rgba(var(--clr-dark-light), .9) 0,
+        rgba(var(--clr-black-strong), .2) 50%)
   }
 
   &_image {

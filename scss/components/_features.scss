@@ -1,5 +1,7 @@
 @use '../util/' as u;
 
 .features {
-  background-color: red;
+  &__title {
+    margin-bottom: u.rem(52);
+  }
 }

@@ -1,7 +1,41 @@
 @use '../util/' as u;
 
 .features {
+  margin-bottom: u.rem(220);
+
   &__title {
     margin-bottom: u.rem(52);
   }
+
+  &__grid {
+    display: grid;
+    gap: u.rem(25);
+  }
+
+  &__item {
+    border-radius: var(--rounded-lg);
+    background: rgba(var(--clr-dark-light), .5);
+    padding: u.rem(40) u.rem(25);
+    box-shadow: 0px 0px 3px -1px var(--clr-gray);
+  }
+
+  &__item-title {
+    font-weight: 400;
+    margin-bottom: u.rem(20);
+  }
+
+  &__item-text {
+    font-size: u.rem(14);
+    font-weight: 400;
+    color: var(--clr-gray);
+    margin-bottom: u.rem(30);
+  }
+
+  &__item-image {
+    height: clamp(150px, 1rem + 1vw, 150px);
+    width: clamp(150px, 1rem + 1vw, 200px);
+    margin-inline: auto;
+  }
+
+
 }

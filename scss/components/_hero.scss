@@ -58,22 +58,43 @@
         height: u.rem(20);
     }
 
-    // Background gradients.
-
+    // Background elements with blur.
     &__radial-purple {
         position: absolute;
         background: var(--clr-purple-dark);
-        height: u.rem(850);
-        width: clamp(u.rem(300), 9.75rem + 40vw, u.rem(600));
+        height: 100%;
+        width: clamp(u.rem(300), 9.75rem + 40vw, u.rem(300));
         bottom: clamp(u.rem(0), 1rem + 26.666666666666668vw, u.rem(200));
-        right: clamp(u.rem(0), -6rem + 26.666666666666668vw, u.rem(200));
+        right: 3rem;
         rotate: -25deg;
         filter: blur(300px);
         border-radius: 50%;
         transform-origin: top;
         overflow: hidden;
         z-index: -1;
+
+        @include u.breakpoint(medium) {
+            right: 25rem;
+        }
     }
 
-    &__radial-blue {}
+    &__radial-blue {
+        position: absolute;
+        background: var(--clr-purple-blue);
+        height: 100%;
+        width: u.rem(300);
+        bottom: clamp(u.rem(400), 1rem + 26.666666666666668vw, u.rem(100));
+        right: 0;
+        rotate: -20deg;
+        filter: blur(300px);
+        border-radius: 50%;
+        transform-origin: top;
+        overflow: hidden;
+        z-index: -1;
+
+        @include u.breakpoint(medium) {
+            width: u.rem(500);
+            bottom: u.rem(200);
+        }
+    }
 }

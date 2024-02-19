@@ -1,6 +1,9 @@
 @use '../util/' as u;
 
 .hero {
+    margin-bottom: clamp(u.rem(50), 1.925rem + 5.333333333333333vw, u.rem(90));
+    ;
+
     &__wrapper {
         position: relative;
     }

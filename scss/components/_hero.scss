@@ -72,6 +72,7 @@
         transform-origin: top;
         overflow: hidden;
         z-index: -1;
+        animation: move 10s infinite ease-in-out forwards;
 
         @include u.breakpoint(medium) {
             right: 25rem;
@@ -91,10 +92,25 @@
         transform-origin: top;
         overflow: hidden;
         z-index: -1;
+        animation: move 11s infinite ease-in-out forwards;
 
         @include u.breakpoint(medium) {
             width: u.rem(500);
             bottom: u.rem(200);
         }
+    }
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(0) translateZ(0);
+    }
+
+    50% {
+        transform: rotate(30deg) translateZ(0);
+    }
+
+    100% {
+        transform: rotate(0) translateZ(0);
     }
 }

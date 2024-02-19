@@ -9,14 +9,14 @@ body {
 h1 {
   font-weight: 600;
   line-height: 1.1;
-  font-size: clamp(u.rem(34),
+  font-size: clamp(u.rem(36),
       0.8942307692307693rem + 4.358974358974359vw,
       u.rem(64));
 }
 
 h2 {
   font-weight: 600;
-  font-size: clamp(u.rem(28), 1.2019230769230769rem + 2.435897435897436vw, u.rem(47));
+  font-size: clamp(u.rem(30), 1.3846153846153846rem + 2.1794871794871793vw, u.rem(47));
 }
 
 h3 {

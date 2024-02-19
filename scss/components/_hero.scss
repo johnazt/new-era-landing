@@ -9,7 +9,7 @@
     }
 
     &__content {
-        width: min(calc(100% - u.rem(32)), u.rem(650));
+        width: min(100%, u.rem(650));
         margin-inline: auto;
         padding-top: u.rem(55);
         margin-bottom: clamp(u.rem(70), 2.2750000000000004rem + 9.333333333333332vw, u.rem(140));

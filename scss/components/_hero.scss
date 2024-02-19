@@ -1,6 +1,9 @@
 @use '../util/' as u;
 
 .hero {
+    &__wrapper {
+        position: relative;
+    }
 
     &__content {
         width: min(calc(100% - u.rem(32)), u.rem(650));
@@ -54,4 +57,27 @@
         width: u.rem(20);
         height: u.rem(20);
     }
+
+    // Background gradients.
+
+    &__radial-purple {
+        position: absolute;
+        background: var(--clr-purple);
+        height: 500px;
+        width: clamp(100px, 400px, 400px);
+        top: -4rem;
+        right: -5rem;
+        rotate: -25deg;
+        overflow: hidden;
+        filter: blur(290px);
+        border-radius: 50%;
+        transform-origin: top;
+        z-index: -1;
+
+        @include u.breakpoint(large) {
+            right: 25rem;
+        }
+    }
+
+    &__radial-blue {}
 }

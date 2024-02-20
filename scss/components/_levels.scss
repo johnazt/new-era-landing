@@ -1,0 +1,21 @@
+@use '../util/' as u;
+
+.levels {
+  &__wrapper {}
+
+  &__title {}
+
+  &__container-image {}
+
+  &__image {}
+
+  &__features {}
+
+  &__item {}
+
+  &__item-icon {}
+
+  &__item-title {}
+
+  &__item-text {}
+}

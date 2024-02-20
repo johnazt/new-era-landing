@@ -11,11 +11,20 @@
   &__text {
     text-align: center;
     color: var(--clr-gray);
+    margin-bottom: u.rem(50);
   }
 
-  &__container-image {}
+  &__container-image {
+    background-image: linear-gradient(160deg, rgba(var(--clr-dark-light), .6) 10%, var(--clr-blue-gradient) 100%);
+    border-radius: var(--rounded-sm);
+  }
 
-  &__image {}
+  &__image {
+    height: clamp(u.rem(250), 7.065746753246753rem + 37.01298701298701vw, u.rem(535));
+    width: min(100%, u.rem(950));
+    margin-inline: auto;
+    border-radius: var(--rounded-sm);
+  }
 
   &__features {}
 

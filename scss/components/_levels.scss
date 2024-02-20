@@ -17,6 +17,7 @@
   &__container-image {
     background-image: linear-gradient(160deg, rgba(var(--clr-dark-light), .6) 10%, var(--clr-blue-gradient) 100%);
     border-radius: var(--rounded-sm);
+    margin-bottom: u.rem(130);
   }
 
   &__image {

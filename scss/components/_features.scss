@@ -1,7 +1,7 @@
 @use '../util/' as u;
 
 .features {
-  margin-bottom: u.rem(220);
+  margin-bottom: clamp(u.rem(100), 3.076923076923077rem + 14.102564102564102vw, u.rem(210));
 
   &__title {
     margin-bottom: u.rem(52);

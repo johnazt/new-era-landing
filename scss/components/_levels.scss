@@ -36,9 +36,14 @@
   }
 
   &__item {
-    background: rgba(var(--clr-dark-light), .6);
     border-radius: var(--rounded-sm);
     padding: u.rem(33);
+    transition: background .25s ease-in-out;
+
+    &:hover {
+      background: rgba(var(--clr-dark-light), .6);
+      transition: background .25s ease-in-out;
+    }
 
     @include u.breakpoint(medium) {
       &:nth-child(3) {

@@ -1,7 +1,8 @@
 @use '../util/' as u;
 
 .levels {
-  &__wrapper {}
+  margin-bottom: clamp(u.rem(100), 3.246753246753247rem + 12.987012987012985vw, u.rem(200));
+  ;
 
   &__title {
     text-align: center;
@@ -56,7 +57,6 @@
         grid-column: 3;
       }
     }
-
   }
 
   &__item-icon {
@@ -64,7 +64,11 @@
     width: u.rem(25);
   }
 
-  &__item-title {}
+  &__item-title {
+    color: var(--clr-gray-light);
+  }
 
-  &__item-text {}
+  &__item-text {
+    color: var(--clr-gray);
+  }
 }

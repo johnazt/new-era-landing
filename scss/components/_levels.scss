@@ -3,7 +3,16 @@
 .levels {
   &__wrapper {}
 
-  &__title {}
+  &__title {
+    text-align: center;
+    margin-bottom: u.rem(35);
+    line-height: 1;
+  }
+
+  &__text {
+    text-align: center;
+    color: var(--clr-gray);
+  }
 
   &__container-image {}
 

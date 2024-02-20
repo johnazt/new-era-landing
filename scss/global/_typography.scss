@@ -1,7 +1,6 @@
 @use '../util/' as u;
 
 body {
-  font-weight: 200;
   font-size: clamp(u.rem(15), 0.8173076923076923rem + 0.2564102564102564vw, u.rem(15));
   line-height: 1.6;
 }
@@ -25,6 +24,5 @@ h3 {
 }
 
 .fs--lg {
-  font-weight: 200;
   font-size: clamp(1.0625rem, 1.0048076923076923rem + 0.2564102564102564vw, 1.1875rem);
 }

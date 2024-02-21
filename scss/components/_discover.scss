@@ -42,11 +42,20 @@
 
   &__link {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(var(--clr-dark-light), .6);
+  }
+
+  &__container-icon-title {
+    display: flex;
   }
 
   &__icon {
     height: u.rem(25);
     width: u.rem(25);
+    margin-inline-end: u.rem(25);
   }
 
   &__title {}
@@ -61,9 +70,11 @@
 
   &__arrow {
     width: u.rem(15);
+    height: u.rem(10);
   }
 
   &__content {
+    background: rgba(var(--clr-dark-light), .6);
     display: grid;
     grid-template-rows: var(--row, 0fr);
     transition: grid-template-rows .25s;

@@ -24,7 +24,10 @@
 
   &__container-image {}
 
-  &__image {}
+  &__image {
+    height: clamp(u.rem(250), 7.065746753246753rem + 37.01298701298701vw, u.rem(410));
+    width: min(100%, u.rem(485));
+  }
 }
 
 .dropdown {
@@ -37,7 +40,10 @@
     position: relative;
   }
 
-  &__icon {}
+  &__icon {
+    height: u.rem(25);
+    width: u.rem(25);
+  }
 
   &__title {}
 
@@ -49,7 +55,9 @@
     opacity: 0;
   }
 
-  &__arrow {}
+  &__arrow {
+    width: u.rem(15);
+  }
 
   &__content {
     display: grid;

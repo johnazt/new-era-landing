@@ -23,17 +23,34 @@
 }
 
 .dropdown {
-  &__link {}
+
+  &:has(:checked) {
+    --row: 1fr
+  }
+
+  &__link {
+    position: relative;
+  }
 
   &__icon {}
 
   &__title {}
 
-  &__check {}
+  &__check {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
 
   &__arrow {}
 
-  &__content {}
+  &__content {
+    display: grid;
+    grid-template-rows: var(--row, 0fr);
+  }
 
-  &__text {}
+  &__text {
+    overflow: hidden;
+  }
 }

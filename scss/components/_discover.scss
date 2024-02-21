@@ -3,4 +3,37 @@
 .discover {
   margin-bottom: clamp(u.rem(90), 2.9220779220779223rem + 11.688311688311687vw, u.rem(180));
   ;
+
+  &__wrapper {}
+
+  &__top {}
+
+  &__title {}
+
+  &__description {}
+
+  &__bottom {}
+
+  &__container-dropdown {}
+
+
+  &__container-image {}
+
+  &__image {}
+}
+
+.dropdown {
+  &__link {}
+
+  &__icon {}
+
+  &__title {}
+
+  &__check {}
+
+  &__arrow {}
+
+  &__content {}
+
+  &__text {}
 }

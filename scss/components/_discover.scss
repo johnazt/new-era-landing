@@ -1,1 +1,6 @@
 @use '../util/' as u;
+
+.discover {
+  margin-bottom: clamp(u.rem(90), 2.9220779220779223rem + 11.688311688311687vw, u.rem(180));
+  ;
+}

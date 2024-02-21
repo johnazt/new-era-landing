@@ -44,6 +44,7 @@
     --row: 1fr;
     --padding: 25px;
     --opacity: 1;
+    --border-radius: var(--rounded-md, 0) var(--rounded-md, 0) 0 0;
   }
 
   &__link {
@@ -53,7 +54,7 @@
     align-items: center;
     background: rgba(var(--clr-dark-light), .6);
     padding: u.rem(22) u.rem(25);
-    border-radius: 10px;
+    border-radius: var(--border-radius, 10px);
   }
 
   &__container-icon-title {
@@ -68,6 +69,7 @@
 
   &__title {
     color: var(--clr-gray-light);
+    font-weight: 600;
   }
 
   &__check {
@@ -85,10 +87,13 @@
 
   &__content {
     background: rgba(var(--clr-dark-light), .6);
+    border-radius: 0 0 var(--rounded-md) var(--rounded-md);
     display: grid;
     opacity: var(--opacity, 0);
     grid-template-rows: var(--row, 0fr);
-    transition: grid-template-rows .25s;
+    transition-property: grid-template-rows padding border-radius;
+    transform-origin: top center;
+    transition: .25s ease-in-out;
     padding: var(--padding, 0);
   }
 

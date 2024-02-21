@@ -4,9 +4,9 @@
   margin-bottom: clamp(u.rem(90), 2.9220779220779223rem + 11.688311688311687vw, u.rem(180));
   ;
 
-  &__wrapper {}
-
-  &__top {}
+  &__top {
+    margin-bottom: u.rem(50);
+  }
 
   &__title {
     margin-bottom: u.rem(35);
@@ -15,7 +15,6 @@
   &__description {
     width: min(100%, u.rem(440));
     color: var(--clr-gray);
-    margin-bottom: u.rem(50);
   }
 
   &__bottom {}

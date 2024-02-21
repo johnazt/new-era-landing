@@ -22,11 +22,15 @@
   &__container-dropdown {}
 
 
-  &__container-image {}
+  &__container-image {
+    border-radius: var(--rounded-md);
+    background: rgba(var(--clr-dark-light), .5);
+  }
 
   &__image {
     height: clamp(u.rem(250), 7.065746753246753rem + 37.01298701298701vw, u.rem(410));
     width: min(100%, u.rem(485));
+    border-radius: var(--rounded-md) 0 0 var(--rounded-md);
   }
 }
 

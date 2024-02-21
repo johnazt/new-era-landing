@@ -3,4 +3,32 @@
 .achieve {
   margin-bottom: clamp(u.rem(90), 2.9220779220779223rem + 11.688311688311687vw, u.rem(180));
   ;
+
+  &__title {
+    text-align: center;
+    margin-bottom: u.rem(30);
+  }
+
+  &__description {
+    text-align: center;
+    color: var(--clr-gray);
+    margin-bottom: u.rem(50);
+  }
+
+  &__image {}
+
+  &__card {}
+
+  &__card-text {}
+
+  &__card-title {}
+
+  &__card-description {}
+
+  &__card-list {}
+
+  &__card-icon {}
+
+  &__card-item-text {}
+
 }

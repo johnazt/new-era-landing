@@ -20,6 +20,8 @@
 
 
   &__card {
+    display: grid;
+    grid-template-columns: 1fr;
     border-top: 3px solid rgba(var(--clr-dark-light), .5);
     padding: u.rem(60) 0;
   }

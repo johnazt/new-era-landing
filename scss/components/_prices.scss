@@ -1,17 +1,57 @@
 @use '../util/' as u;
 
 .prices {
-  &__title {}
+  margin-bottom: clamp(u.rem(75), 2.4530440414507773rem + 9.71502590673575vw, u.rem(150));
+  ;
 
-  &__billed {}
+  &__title {
+    text-align: center;
+    width: min(100%, u.rem(750));
+    margin-inline: auto;
+    margin-bottom: u.rem(70);
+  }
 
-  &__billed-month {}
+  &__billed {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: u.rem(15);
+  }
 
-  &__billed-button {}
+  &__billed-month {
+    color: var(--clr-gray)
+  }
 
-  &__toggle {}
+  &__billed-button {
+    background: var(--clr-gray-dark);
+    border-radius: var(--rounded-lg);
+    height: u.rem(35);
+    width: u.rem(70);
+    padding: u.rem(4);
+  }
 
-  &__billed-yearly {}
+  &__toggle {
+    border-radius: 50%;
+    background-color: var(--clr-white);
+    height: u.rem(27);
+    width: u.rem(27);
+    translate: 120%;
+    cursor: pointer;
+  }
+
+  &__billed-yearly {
+    color: var(--clr-gray-light);
+    position: relative;
+
+    &::after {
+      content: "(Save up to 22%)";
+      font-size: u.rem(13);
+      position: absolute;
+      left: u.rem(-10);
+      bottom: u.rem(-20);
+      color: var(--clr-pink-gradient);
+    }
+  }
 
   &__grid {}
 
@@ -21,7 +61,10 @@
 
   &__card-title {}
 
-  &__card-icon {}
+  &__card-icon {
+    width: u.rem(20);
+    height: u.rem(20);
+  }
 
   &__card-price-container {}
 
@@ -35,7 +78,10 @@
 
   &__card-item-list {}
 
-  &__card-item-icon {}
+  &__card-item-icon {
+    width: u.rem(20);
+    height: u.rem(20);
+  }
 
   &__card-item-text {}
 

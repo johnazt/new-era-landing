@@ -22,9 +22,17 @@
 
   &__column-three {}
 
-  &__card {}
+  &__card {
+    border-radius: var(--rounded-md);
+    border: 1px solid rgba(var(--clr-dark-light), 1);
+    padding: u.rem(32);
+    color: var(--clr-gray);
+    margin-bottom: u.rem(20);
+  }
 
-  &__card-text {}
+  &__card-text {
+    margin-top: u.rem(-45);
+  }
 
   &__card-container-user {}
 
@@ -38,7 +46,9 @@
 
   &__card-user {}
 
-  &__card-name {}
+  &__card-name {
+    color: var(--clr-gray-light)
+  }
 
   &__card-job {}
 

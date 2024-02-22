@@ -1,7 +1,7 @@
 @use '../util/' as u;
 
 .achieve {
-  margin-bottom: clamp(u.rem(90), 2.9220779220779223rem + 11.688311688311687vw, u.rem(180));
+  margin-bottom: clamp(u.rem(77), 2.9220779220779223rem + 11.688311688311687vw, u.rem(155));
   ;
 
   &__title {
@@ -27,6 +27,10 @@
     @include u.breakpoint(large) {
       grid-template-columns: 1fr 1fr;
     }
+  }
+
+  &__card-bottom {
+    border-bottom: 3px solid rgba(var(--clr-dark-light), .5);
   }
 
   &__card-text {
@@ -59,6 +63,12 @@
 
   &__container-image-with-bg {
     background: url('../../assets/images/total-revenue.png');
+    width: min(100%, u.rem(540));
+    height: clamp(u.rem(370), 8.830958549222798rem + 34.97409326424871vw, u.rem(540));
+    border-radius: var(--rounded-md);
+    margin-inline: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   &__container-image {

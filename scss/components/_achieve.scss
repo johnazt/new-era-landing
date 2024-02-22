@@ -17,8 +17,6 @@
     margin-bottom: u.rem(54);
   }
 
-
-
   &__card {
     display: grid;
     grid-template-columns: 1fr;
@@ -34,9 +32,13 @@
 
   &__card-text {}
 
-  &__card-title {}
+  &__card-title {
+    margin-bottom: u.rem(50);
+  }
 
-  &__card-description {}
+  &__card-description {
+    color: var(--clr-gray);
+  }
 
   &__card-list {}
 

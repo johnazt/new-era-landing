@@ -19,29 +19,47 @@
     margin-bottom: u.rem(45);
   }
 
-  &__billed-month {
-    color: var(--clr-gray)
-  }
 
   &__billed-button {
     background: var(--clr-gray-dark);
     border-radius: var(--rounded-lg);
-    height: u.rem(35);
+    height: u.rem(33);
     width: u.rem(70);
-    padding: u.rem(4);
+    padding: u.rem(3);
+    position: relative;
+  }
+
+  &__billed:has(:checked) {
+    --translate: 10%;
+    --color-active: var(--clr-gray-light);
+    --color-inactive: var(--clr-gray)
+  }
+
+  &__billed-month {
+    color: var(--color-active, var(--clr-gray));
+  }
+
+  &__check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
   }
 
   &__toggle {
     border-radius: 50%;
     background-color: var(--clr-white);
-    height: u.rem(27);
-    width: u.rem(27);
-    translate: 120%;
-    cursor: pointer;
+    height: u.rem(25);
+    width: u.rem(25);
+    translate: var(--translate, 150%);
+    transition: translate .20s ease-in;
   }
 
   &__billed-yearly {
-    color: var(--clr-gray-light);
+    color: var(--color-inactive, var(--clr-gray-light));
     position: relative;
 
     &::after {
@@ -79,6 +97,7 @@
     display: grid;
     grid-template-rows: 25px 50px 80px auto 2fr;
     position: relative;
+    overflow: hidden;
 
     @include u.breakpoint(medium) {
       &:nth-child(3) {
@@ -94,12 +113,23 @@
     }
   }
 
+  &__card-gradient {
+    position: absolute;
+    width: u.rem(200);
+    height: u.rem(150);
+    background: var(--clr-purple);
+    filter: blur(u.rem(50));
+    z-index: -1;
+
+    transform-origin: right;
+  }
+
   &__card-popular {
     position: absolute;
     right: u.rem(40);
     top: u.rem(40);
     color: var(--clr-pink-gradient);
-    border: 2px solid rgba(var(--clr-dark-light), .8);
+    border: 2px solid var(--clr-gray-dark);
     border-radius: var(--rounded-lg);
     padding: u.rem(7) u.rem(20);
     font-weight: 600;

@@ -2,7 +2,6 @@
 
 .prices {
   margin-bottom: clamp(u.rem(75), 2.4530440414507773rem + 9.71502590673575vw, u.rem(150));
-  ;
 
   &__title {
     text-align: center;
@@ -23,7 +22,7 @@
   &__billed-button {
     background: var(--clr-gray-dark);
     border-radius: var(--rounded-lg);
-    height: u.rem(33);
+    height: u.rem(32);
     width: u.rem(70);
     padding: u.rem(3);
     position: relative;
@@ -160,8 +159,6 @@
     color: var(--clr-gray);
   }
 
-  &__card-additional-message {}
-
   &__card-list {
     display: flex;
     flex-direction: column;
@@ -199,6 +196,35 @@
       background: var(--clr-white);
       color: var(--clr-black);
       transition: background .25s ease-in-out;
+    }
+  }
+
+  &__message-brand {
+    text-align: center;
+    color: var(--clr-gray);
+  }
+
+  &__gradient-bottom {
+    height: u.rem(150);
+    width: 80%;
+    margin-inline: auto;
+    background: radial-gradient(at center bottom,
+        rgba(var(--clr-dark-light), .9) 0,
+        rgba(var(--clr-black-strong), .2) 50%);
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: u.rem(100);
+      border-bottom: 2px solid;
+      border-image: radial-gradient(circle,
+          var(--clr-gray) 0%,
+          var(--clr-dark-mid) 50%,
+          rgb(var(--clr-black-strong)) 100%) 1;
     }
   }
 }

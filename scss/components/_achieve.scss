@@ -57,9 +57,9 @@
   }
 
   &__container-image {
+    background: linear-gradient(var(--clr-blue-purple-gradient), var(--clr-pink-gradient));
     padding: clamp(u.rem(35), 1.1447538860103628rem + 4.533678756476684vw, u.rem(70)) clamp(u.rem(30), 1.1447538860103628rem + 4.533678756476684vw, u.rem(60));
     border-radius: var(--rounded-md);
-    background-color: purple;
     width: min(100%, u.rem(540));
   }
 

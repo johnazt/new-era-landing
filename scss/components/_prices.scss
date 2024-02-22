@@ -1,7 +1,7 @@
 @use '../util/' as u;
 
 .prices {
-  margin-bottom: clamp(u.rem(75), 2.4530440414507773rem + 9.71502590673575vw, u.rem(150));
+  margin-bottom: clamp(u.rem(100), 2.4530440414507773rem + 9.71502590673575vw, u.rem(210));
 
   &__title {
     text-align: center;

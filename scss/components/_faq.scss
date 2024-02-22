@@ -1,0 +1,70 @@
+@use '../util/' as u;
+
+.faq {
+  &__title {
+    margin-bottom: u.rem(70);
+    text-align: center;
+  }
+
+  &__dropdown {
+    width: min(100%, u.rem(565));
+    margin-inline: auto;
+  }
+
+  &__item {
+    margin-bottom: u.rem(10);
+  }
+
+  &__item:has(:checked) {
+    --row: 1fr;
+    --padding: 0px 25px 25px 25px;
+    --opacity: 1;
+    --border-radius: var(--rounded-md, 0) var(--rounded-md, 0) 0 0;
+    --height: auto;
+  }
+
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: rgba(var(--clr-dark-light), .6);
+    padding: u.rem(22) u.rem(25);
+    border-radius: var(--border-radius, 10px);
+  }
+
+  &__question {
+    color: var(--clr-gray-light);
+    font-size: u.rem(16);
+  }
+
+  &__arrow-icon {
+    width: u.rem(10);
+    height: u.rem(10);
+    object-fit: contain;
+  }
+
+  &__check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  &__text {
+    background: rgba(var(--clr-dark-light), .6);
+    color: var(--clr-gray);
+    border-radius: 0 0 var(--rounded-md) var(--rounded-md);
+    display: grid;
+    height: var(--height, 0);
+    grid-template-rows: var(--row, 0fr);
+    overflow: hidden;
+    opacity: 1;
+    padding: var(--padding, 0 0 0 0);
+    transform-origin: top center;
+    transition: all .25s ease-in-out;
+  }
+}

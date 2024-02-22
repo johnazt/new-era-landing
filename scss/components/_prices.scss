@@ -92,12 +92,17 @@
         grid-column: 3;
       }
     }
-
-
   }
 
   &__card-popular {
     position: absolute;
+    right: u.rem(40);
+    top: u.rem(40);
+    color: var(--clr-pink-gradient);
+    border: 2px solid rgba(var(--clr-dark-light), .8);
+    border-radius: var(--rounded-lg);
+    padding: u.rem(7) u.rem(20);
+    font-weight: 600;
   }
 
   &__card-title {

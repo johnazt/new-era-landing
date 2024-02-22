@@ -22,8 +22,14 @@
   &__card {
     display: grid;
     grid-template-columns: 1fr;
+    gap: clamp(u.rem(60), 1.9624352331606219rem + 7.772020725388601vw, u.rem(120));
+    ;
     border-top: 3px solid rgba(var(--clr-dark-light), .5);
     padding: u.rem(60) 0;
+
+    @include u.breakpoint(large) {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   &__card-text {}

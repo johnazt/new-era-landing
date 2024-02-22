@@ -62,12 +62,13 @@
   }
 
   &__container-image-with-bg {
-    background: url('../../assets/images/total-revenue.png');
+    background: url('../assets/images/total-revenue.png');
     width: min(100%, u.rem(540));
     height: clamp(u.rem(370), 8.830958549222798rem + 34.97409326424871vw, u.rem(540));
     border-radius: var(--rounded-md);
     margin-inline: auto;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
   }
 

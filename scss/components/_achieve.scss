@@ -12,12 +12,17 @@
   &__description {
     text-align: center;
     color: var(--clr-gray);
-    margin-bottom: u.rem(50);
+    width: min(100%, u.rem(450));
+    margin-inline: auto;
+    margin-bottom: u.rem(54);
   }
 
-  &__image {}
 
-  &__card {}
+
+  &__card {
+    border-top: 3px solid rgba(var(--clr-dark-light), .5);
+    padding: u.rem(60) 0;
+  }
 
   &__card-text {}
 
@@ -31,4 +36,5 @@
 
   &__card-item-text {}
 
+  &__image {}
 }

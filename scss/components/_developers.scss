@@ -1,3 +1,21 @@
 @use '../util/' as u;
 
-.developers {}
+.developers {
+  &__title {}
+
+  &__text {}
+
+  &__container-content {}
+
+  &__grid {}
+
+  &__item {}
+
+  &__item-icon {}
+
+  &__item-title {}
+
+  &__item-text {}
+
+  &__image {}
+}

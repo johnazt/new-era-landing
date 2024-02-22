@@ -38,6 +38,7 @@
   &__item-icon {
     height: u.rem(25);
     width: u.rem(25);
+    object-fit: contain;
   }
 
   &__item-title {

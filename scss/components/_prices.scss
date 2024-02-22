@@ -1,3 +1,39 @@
 @use '../util/' as u;
 
-.prices {}
+.prices {
+  &__title {}
+
+  &__billed {}
+
+  &__billed-month {}
+
+  &__billed-button {}
+
+  &__toggle {}
+
+  &__billed-yearly {}
+
+  &__grid {}
+
+  &__card {}
+
+  &__card-title {}
+
+  &__card-icon {}
+
+  &__card-price-container {}
+
+  &__card-money {}
+
+  &__card-small {}
+
+  &__card-list {}
+
+  &__card-item-list {}
+
+  &__card-item-icon {}
+
+  &__card-item-text {}
+
+  &__button {}
+}

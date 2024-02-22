@@ -18,15 +18,14 @@
 
   &__grid {
     display: grid;
-    grid-template-columns: 1fr;
-
-
+    grid-template-columns: repeat(auto-fill, minmax(355px, 1fr));
+    gap: u.rem(22);
   }
 
   &__item {
     background: rgba(var(--clr-dark-light), .6);
     border-radius: var(--rounded-sm);
-    padding: u.rem(33);
+    padding: u.rem(35) u.rem(30);
     transition: background .25s ease-in-out;
     cursor: pointer;
 
@@ -41,8 +40,12 @@
     width: u.rem(25);
   }
 
-  &__item-tite {}
+  &__item-title {
+    color: var(--clr-gray-light);
+  }
 
-  &__item-text {}
+  &__item-text {
+    color: var(--clr-gray);
+  }
 
 }

@@ -1,9 +1,23 @@
 @use '../util/' as u;
 
 .developers {
-  &__title {}
+  margin-bottom: clamp(u.rem(75), 2.4530440414507773rem + 9.71502590673575vw, u.rem(150));
+  ;
 
-  &__text {}
+  &__title {
+    text-align: center;
+    width: min(100%, u.rem(550));
+    margin-inline: auto;
+    margin-bottom: u.rem(40);
+  }
+
+  &__text {
+    text-align: center;
+    width: min(100%, u.rem(500));
+    margin-inline: auto;
+    color: var(--clr-gray);
+    margin-bottom: u.rem(55);
+  }
 
   &__container-content {}
 
@@ -11,11 +25,18 @@
 
   &__item {}
 
-  &__item-icon {}
+  &__item-icon {
+    width: u.rem(20);
+    height: u.rem(20);
+    object-fit: contain;
+  }
 
   &__item-title {}
 
   &__item-text {}
 
-  &__image {}
+  &__image {
+    width: min(100%, u.rem(565));
+    height: clamp(u.rem(300), 8.830958549222798rem + 34.97409326424871vw, u.rem(410));
+  }
 }

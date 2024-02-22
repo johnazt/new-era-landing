@@ -5,16 +5,36 @@
 
   &__title {
     text-align: center;
+    margin-bottom: u.rem(30);
   }
 
   &__text {
     text-align: center;
     color: var(--clr-gray);
+    margin-bottom: u.rem(55);
+    width: min(100%, u.rem(500));
+    margin-inline: auto;
   }
 
-  &__grid {}
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
 
-  &__item {}
+
+  }
+
+  &__item {
+    background: rgba(var(--clr-dark-light), .6);
+    border-radius: var(--rounded-sm);
+    padding: u.rem(33);
+    transition: background .25s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      background: rgba(var(--clr-dark-light), .3);
+      transition: background .25s ease-in-out;
+    }
+  }
 
   &__item-icon {
     height: u.rem(25);

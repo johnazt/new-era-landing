@@ -1,0 +1,28 @@
+@use "../util/" as u;
+
+.why-rombo {
+  margin-bottom: clamp(u.rem(60), 1.9624352331606219rem + 7.772020725388601vw, u.rem(120));
+
+  &__title {
+    text-align: center;
+  }
+
+  &__text {
+    text-align: center;
+    color: var(--clr-gray);
+  }
+
+  &__grid {}
+
+  &__item {}
+
+  &__item-icon {
+    height: u.rem(25);
+    width: u.rem(25);
+  }
+
+  &__item-tite {}
+
+  &__item-text {}
+
+}

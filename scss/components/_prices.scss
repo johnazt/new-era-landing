@@ -8,7 +8,7 @@
     text-align: center;
     width: min(100%, u.rem(750));
     margin-inline: auto;
-    margin-bottom: u.rem(70);
+    margin-bottom: u.rem(70)
   }
 
   &__billed {
@@ -16,6 +16,7 @@
     align-items: center;
     justify-content: center;
     column-gap: u.rem(15);
+    margin-bottom: u.rem(45);
   }
 
   &__billed-month {
@@ -53,37 +54,89 @@
     }
   }
 
-  &__grid {}
-
-  &__card {}
-
-  &__card-popular {}
-
-  &__card-title {}
-
-  &__card-icon {
-    width: u.rem(20);
-    height: u.rem(20);
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
-  &__card-price-container {}
+  &__card {
+    padding: u.rem(40);
+    border-radius: var(--rounded-lg);
+    border: 1px solid rgba(var(--clr-dark-light), 1);
+    height: u.rem(520);
+    display: grid;
+    grid-template-rows: 20px 50px 80px auto 2fr;
+    position: relative;
+  }
 
-  &__card-money {}
+  &__card-popular {
+    position: absolute;
+  }
 
-  &__card-small {}
+  &__card-title {
+    color: var(--clr-gray-light);
+  }
+
+  &__card-icon {
+    width: u.rem(22);
+    height: u.rem(22);
+    object-fit: contain;
+  }
+
+  &__card-price-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__card-money {
+    font-size: clamp(u.rem(28), 0.9038461538461539rem + 1.5384615384615385vw, u.rem(34));
+    line-height: 1.1;
+  }
+
+  &__card-small {
+    font-size: u.rem(13);
+    color: var(--clr-gray);
+  }
 
   &__card-additional-message {}
 
-  &__card-list {}
+  &__card-list {
+    display: flex;
+    flex-direction: column;
+    gap: u.rem(5)
+  }
 
-  &__card-item-list {}
+  &__card-item-list {
+    display: flex;
+    align-items: center;
+    gap: u.rem(10)
+  }
 
   &__card-item-icon {
+    display: inline-block;
     width: u.rem(20);
     height: u.rem(20);
   }
 
-  &__card-item-text {}
+  &__card-item-text {
+    color: var(--clr-gray)
+  }
 
-  &__button {}
+  &__button {
+    border: 1px solid rgba(var(--clr-dark-light), 1);
+    align-self: flex-end;
+    border-radius: var(--rounded-sm);
+    padding: clamp(u.rem(10), 0.5343264248704664rem + 5.829015544041451vw, u.rem(20)) clamp(u.rem(30), 0.5343264248704664rem + 5.829015544041451vw, u.rem(75));
+    background: rgba(var(--clr-dark-light), .4);
+    color: var(--clr-white);
+    font-weight: 600;
+    transition-property: background color;
+    transition: .25s ease-in-out;
+
+    &:hover {
+      background: var(--clr-white);
+      color: var(--clr-black);
+      transition: background .25s ease-in-out;
+    }
+  }
 }

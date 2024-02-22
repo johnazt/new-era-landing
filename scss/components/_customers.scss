@@ -1,3 +1,38 @@
 @use '../util/' as u;
 
-.customers {}
+.customers {
+  &__title {}
+
+  &__description {}
+
+  &__grid {}
+
+  &__column {}
+
+  &__column-one {}
+
+  &__column-two {}
+
+  &__column-three {}
+
+  &__card {}
+
+  &__card-text {}
+
+  &__card-container-user {}
+
+  &__card-image {}
+
+  &__card-image-mary {}
+
+  &__card-image-david {}
+
+  &__card-image-emily {}
+
+  &__card-user {}
+
+  &__card-name {}
+
+  &__card-job {}
+
+}

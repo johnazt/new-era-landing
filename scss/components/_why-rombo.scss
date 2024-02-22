@@ -18,8 +18,12 @@
 
   &__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(u.rem(250), 1fr));
     gap: u.rem(22);
+
+    @include u.breakpoint(large) {
+      grid-template-columns: repeat(auto-fill, minmax(u.rem(350), 1fr));
+    }
   }
 
   &__item {

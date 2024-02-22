@@ -66,8 +66,14 @@
       font-size: u.rem(13);
       position: absolute;
       left: u.rem(-10);
-      bottom: u.rem(-20);
+      right: 0;
+      bottom: u.rem(-40);
+      text-align: center;
       color: var(--clr-pink-gradient);
+
+      @include u.breakpoint(large) {
+        bottom: u.rem(-20);
+      }
     }
   }
 

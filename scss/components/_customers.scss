@@ -1,9 +1,16 @@
 @use '../util/' as u;
 
 .customers {
-  &__title {}
+  &__title {
+    text-align: center;
+    margin-bottom: u.rem(35);
+  }
 
-  &__description {}
+  &__description {
+    color: var(--clr-gray);
+    text-align: center;
+    margin-bottom: u.rem(70);
+  }
 
   &__grid {}
 

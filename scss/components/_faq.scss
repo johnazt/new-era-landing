@@ -1,6 +1,9 @@
 @use '../util/' as u;
 
 .faq {
+  margin-bottom: clamp(u.rem(90), 2.794689119170984rem + 12.305699481865286vw, u.rem(185));
+  ;
+
   &__title {
     margin-bottom: u.rem(70);
     text-align: center;

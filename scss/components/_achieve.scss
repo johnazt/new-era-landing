@@ -40,11 +40,20 @@
     color: var(--clr-gray);
   }
 
-  &__card-list {}
+  &__card-item-list:not(:last-child) {
+    margin-bottom: u.rem(30);
+  }
 
-  &__card-icon {}
+  &__card-icon {
+    display: inline-block;
+    margin-inline-end: u.rem(10);
+    height: u.rem(20);
+    width: u.rem(20);
+  }
 
-  &__card-item-text {}
+  &__card-item-text {
+    color: var(--clr-gray-light)
+  }
 
   &__image {}
 }

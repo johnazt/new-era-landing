@@ -57,6 +57,10 @@
     color: var(--clr-gray-light)
   }
 
+  &__container-image-with-bg {
+    background: url('../../assets/images/total-revenue.png');
+  }
+
   &__container-image {
     background: linear-gradient(var(--clr-blue-purple-gradient), var(--clr-pink-gradient));
     padding: clamp(u.rem(35), 1.1447538860103628rem + 4.533678756476684vw, u.rem(70)) clamp(u.rem(30), 1.1447538860103628rem + 4.533678756476684vw, u.rem(60));

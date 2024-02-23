@@ -108,31 +108,31 @@ export const features = [
   {
     title: 'MindSync',
     text: 'Seamless AI-Powered Team Collaboration Solution',
-    image: './assets/images/mindsync.svg'
+    image: './assets/images/mindsync.svg',
     alt: 'mindsync-image'
   },
   {
     title: 'SyncConnect',
     text: 'AI-Powered Integrations Made Easy',
-    image: './assets/images/synconnect.svg'
+    image: './assets/images/synconnect.svg',
     alt: 'syncconnect-image'
   },
   {
     title: 'RomboX',
     text: 'Supercharge Your Business with AI',
-    image: './assets/images/waves.svg'
+    image: './assets/images/waves.svg',
     alt: 'rombox-image'
   },
   {
     title: 'Integration AI',
     text: 'AI-powered Integration Hub for Developers',
-    image: './assets/images/circle-wave.png'
+    image: './assets/images/circle-wave.png',
     alt: 'integration-image'
   },
   {
     title: 'Shortcuts',
     text: 'Keyboard Shortcuts for increased Productivity',
-    image: './assets/images/shortcuts.svg'
+    image: './assets/images/shortcuts.svg',
     alt: 'shortcuts-image'
-  },
+  }
 ]

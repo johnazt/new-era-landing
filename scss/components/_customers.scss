@@ -31,7 +31,7 @@
   }
 
   &__column {
-    animation: moveCardInY 10s infinite;
+    animation: moveCardInY 12s infinite;
   }
 
   &__column-one {
@@ -74,8 +74,8 @@
 
   &__card-container-user {
     display: grid;
-    grid-template-columns: 32px 7px 32px 20px 1fr;
-    grid-template-rows: 20px 10px auto;
+    grid-template-columns: u.rem(32) u.rem(7) u.rem(20) u.rem(20) 1fr;
+    grid-template-rows: u.rem(20) u.rem(10) auto;
     justify-content: space-between;
   }
 

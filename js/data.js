@@ -32,6 +32,41 @@ export const featuresRombo = [
 
 ]
 
+
+
+export const features = [
+  {
+    title: 'MindSync',
+    text: 'Seamless AI-Powered Team Collaboration Solution',
+    image: 'images/mindsync.svg',
+    alt: 'mindsync-image'
+  },
+  {
+    title: 'SyncConnect',
+    text: 'AI-Powered Integrations Made Easy',
+    image: 'images/synconnect.svg',
+    alt: 'syncconnect-image'
+  },
+  {
+    title: 'RomboX',
+    text: 'Supercharge Your Business with AI',
+    image: 'images/waves.svg',
+    alt: 'rombox-image'
+  },
+  {
+    title: 'Integration AI',
+    text: 'AI-powered Integration Hub for Developers',
+    image: 'images/circle-wave.png',
+    alt: 'integration-image'
+  },
+  {
+    title: 'Shortcuts',
+    text: 'Keyboard Shortcuts for increased Productivity',
+    image: 'images/shortcuts.svg',
+    alt: 'shortcuts-image'
+  }
+]
+
 export const columns = [
   {
     customers: [
@@ -101,38 +136,5 @@ export const columns = [
       },
     ],
     number: 'three'
-  }
-]
-
-export const features = [
-  {
-    title: 'MindSync',
-    text: 'Seamless AI-Powered Team Collaboration Solution',
-    image: 'images/mindsync.svg',
-    alt: 'mindsync-image'
-  },
-  {
-    title: 'SyncConnect',
-    text: 'AI-Powered Integrations Made Easy',
-    image: 'images/synconnect.svg',
-    alt: 'syncconnect-image'
-  },
-  {
-    title: 'RomboX',
-    text: 'Supercharge Your Business with AI',
-    image: 'images/waves.svg',
-    alt: 'rombox-image'
-  },
-  {
-    title: 'Integration AI',
-    text: 'AI-powered Integration Hub for Developers',
-    image: 'images/circle-wave.png',
-    alt: 'integration-image'
-  },
-  {
-    title: 'Shortcuts',
-    text: 'Keyboard Shortcuts for increased Productivity',
-    image: 'images/shortcuts.svg',
-    alt: 'shortcuts-image'
   }
 ]

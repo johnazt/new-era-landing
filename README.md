@@ -1,8 +1,8 @@
-# New era landing ➤
+# New Modern Era   -➤
 
 ### Description
 
-This is a landing page built using HTML, SASS, and Vanilla JavaScript. It is fully responsive and incorporates technologies like Vite, Swiper.js, and follows the BEM methodology for CSS organization.
+This is a landing page built using <b>HTML, SASS, and Vanilla JavaScript.</b> It is fully responsive and incorporates technologies like Vite, Swiper.js, and follows the BEM methodology for CSS organization.
 
 The design is inspired by Tuki Joshua.
 
@@ -22,6 +22,6 @@ Before getting started, ensure that you have the following installed on your sys
 
 ## Developer
 
-*John Asto* - *john.azt.dev@gmail.com*
+<strong>John Asto</strong> - john.azt.dev@gmail.com
 
-Feel free to reach out if you have any further questions or suggestions!
+#### Feel free to reach out if you have any further questions or suggestions!

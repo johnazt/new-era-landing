@@ -1,0 +1,73 @@
+@use '../util/' as u;
+
+.footer {
+  &__wrapper {
+    padding: u.rem(40) 0;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-bottom: u.rem(80);
+
+    @include u.breakpoint(large) {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__brand {
+    @include u.breakpoint(large) {
+
+      align-items: start;
+      grid-column: 1 / 4
+    }
+  }
+
+  &__products {
+    @include u.breakpoint(large) {
+
+      align-items: start;
+      grid-column: 4 /5;
+    }
+  }
+
+  &__social {
+    @include u.breakpoint(large) {
+
+      align-items: end;
+      grid-column: 5 / 6;
+    }
+  }
+
+  &__brand-icon {
+    width: u.rem(25);
+    height: u.rem(25);
+    object-fit: contain;
+    margin-bottom: u.rem(20);
+  }
+
+  &__link {
+    color: var(--clr-gray);
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-bottom: u.rem(20)
+    }
+
+    &:hover {
+      color: var(--clr-gray-light);
+      transition: color .25s ease-in-out;
+    }
+  }
+
+  &__developer {
+    text-align: right;
+  }
+}

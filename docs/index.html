@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./new-era-log.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <title>New Modern Era - John Asto</title>
+    <script type="module" crossorigin src="/new-era-landing/assets/index-D3DZxEyI.js"></script>
+    <link rel="stylesheet" crossorigin href="/new-era-landing/assets/index-D6N7HbkO.css">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <a href="/">
+          <img class="header__logo" src="/new-era-landing/assets/new-era-log-Cbm6GsDO.png" alt="new-era-logo">
+        </a>
+        <ul class="header__nav">
+          <li class="header__li">Features</li>
+          <li class="header__li">Developers</li>
+          <li class="header__li">Pricing</li>
+          <li class="header__li">FAQs</li>
+        </ul>
+        <a href="#" class="header__menu-icon">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAD6CAYAAABODJmtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAkhSURBVHgB7d29jhvHHQDwneWSp/NBhhXIMJAgjWGktIvAKlK5CeAXcOsmXWr7QVzlSVII0AMISBUDSSCoioAgSIpIgfV1R3I3MxTnsFqRR/J0d7nj/H7Agvs5O9yd/3C/uFNVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwLvCd9999/lkMrn35Zdf/vj111//O4179OjRB0+ePPng5cuXo/F4XNV13R4eHs6GC0+n08XnaDTq+uPn83lIy81ms9AfN1y+P32oaZqu2tJZ6dwUq7bPZa0n7ZvLlsrGsFxsY9Uyq7bNedLeFzk2ztpWq7Z/jOOQl0sxfffu3f82H3/88e++//7738fxbZonhFB/8cUXVezyRu8n0vW6ZFWh7db0r7MpjYt2nrSvIjhvfCV2QYoN7A22jZNV8TpcPsV623Xd35tPP/30r7FnMSLWCk3sT5XAphUDN1vXtu0vQwz4r+LAg9iFFcEP7K8XzbKnrvzSQ2m6eh8uoAHn0tbxav9RBZRoVscLAXUFFKlO9wMroEj1dDpNRwDuvUJ5Qn1VT6AB107I5/+OAKBALgBCweqS/1QBpXMKAOXqnAJAwVQAUK7FfwEqoEyOAKBcnYuAULBcAXgaEMoTnAJAwVQAUK5aBQAFSy8Bdf4PhXIEAOVyCgAFcxcAChZSS0BvPQQ0GAT2VLr8t3gfYNu2QeBDWebzedUcHh6mRgLT64EXI9KnGwOw/1JrwU0M9mnsXsWjgCaNWBH83ZrPXVsG3nSIsWr6eWuiizicuYp1hzX9u3if17qH6vo8Bn7elqT3Sb81322tKkMpjbZ6O1ab5edp+vGH/2lz//79v9y7d+/b58+fT1L0p2sCk8kkfaQ2xLv8yrBYQbT914eltwk3TVP1/048fL1YOqI4S5y/umrLo5yVG/kin4notjinSqdem+ZZl9frbJvvtUkqG/v2xur+dhnu1xQ7Z5WZHFs5pvrbJ6eb42lZxtu8nlSuj4+Pm9QIUC7jy/E/VQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwc4XHjx9/+Nlnn/0m9n8ynU5H4/F4GvtPYtem6cuuGvRXy+nzZTfrdXl8O+i6NcPdiv5uuY6un9c1/Zt01c0UdpwezpnOtvOGDePCDtPWjbuOzpv3s8pwWNPVvW607OoVXR7fDIaH8dmPpbCcL32m+HwVuz81MeB/PZ/P/xBC+Fnsr7oo9s+XC4ZBxofmK1Y27K+qd4N63XB/Yw2HL6LAdO85/ToYVsSXva6Lmn/btK5rxfA++eoH4bBiHMZYrgjy56r5htOHwT+Mnao3X54+nc1mf25ivE9iwP88jpjEiqCq67oC9t9oNPq8jsG/OKzIgR+HK2D/xR/8cX1ycrII/rZt/fpDQVK817EWCHkAKEeM+S5HfVsBpWn7VwWBsnT92wxAYep4K8CvPxTKlT8omAoACqYCgILVs9msAsrkOQAoV+c5ACiXCgAK1nkOAMrVuQsA5epO/w0IlMcRABTMn4GgXCGfAqgAoDyhbppm0VMBpQmLdwJWKgAoUZ3eCuwUAMqUXghc9xsAAcpRexIQyqUCgIIFFQAULL0QpN+IJ1CIruva5vXr1z/FW4H/jDcDbqeWgeNFwUXLwHG4TcPV8q/CcTgfKZxWFsvmxLr8OVxBHB96LQ6tay56eAFyXcumG6V8bKOf11XLrPouZ9g4b2/bXbg3u2izXdp8TA1EV+/vMi4sn5lmKm/VDnZpDWtQlrfO06Zkl2lXvTx1ebhfDpdlqOvv77RPB/tq2Lp2yPPENJuY3iiFeOqWy/+jefjw4Y/Pnj37NlUA8/RYYAjHcYZpnD6LpwdtHLWoCFJ/lHq7pmm6ND6Ni/2L3B4fHy/WenBwcJqD6XQaqpyLN18o9YZ41BGy1D+ZTBbzx4qoSmnH5Raf1Q76WyYtm9Iaj8ddTjeP3zWtoZxm/r7DdfTH7Spt3+qKpX1SXYK875O8f/vjkn5Z2ZTGOuGMmi2Vrf5wzsdZeewv0087jY/79Z20Vy23Lp/DMprjKenHVpqe501lKZW1FGdxHW1cXxd/tBf7LXf9fPbLffp+t27dCnH+FPgHsf8gjktP/qXKIMX2vyoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuLnCgwcPPrlz585vT05O7oQQ2tFoNGuaZt5FdV2nrk39cd7F8JmJRfP5POThtm3DpmXOcN7l9lbantUliPuo2tVl5eW8UtmrroFlrGxlmzwPt3OOp2Fc9efL03JeYkyfDqd4jr3To6OjF7du3XoSnj59+tXt27f/GGc6yHmP+eoGX6p6D+deeJiPnVfcqUO2dZXxE/fLlawsfaerWtf/2/K7bpqtW3bzOP/rOP/fmlevXh189NFHkzhylBNalfhNdFPzve+ucr+UVAZ2/K6Hcf5f1c+fPx9XQIm6un/ODpQlXf3J5wVAWUb58q8KAMoT6nyLACiPCgDK1e3+BAiwL1QAUDAVABTMcwBQsOAIAAqmAoByBacAUDBHAFAu1wCgYLUKAMrlCAAKpgKAkqkAoFynjwK7FQjl8V8AKNiiAvDrD2VyCgAF6/IbgVQAUJ4uvxUYKExqSaiZTCaLtv80owVlSW0TNnVdz/vBn/prTwjD3ksNijbpGkCsCGbVm7YB87UAhwNwTQ2P1ndoRHd4rW/aHEexJvhPrAg+TO8GWF4UTE0Iz5efOfF2mI9lgt2KlYQVKwwrPtddfOzW9G97sbJbMdytmXZZLnI9+1Yhv89F54u6YL3NNl1Xli9qfd0Z48Oa5btlI6D98tz20jptAbi3bDqkT22ATpbpLm7/x7h/HL755pvRDz/88It42N+8ePFiFK8JLC4IxHrhdOnYv1jjdDp9K1MnJychzd8f7s93cHDw1jcYLp/kNtLjstV5bGpjPX2X8Xh8msd+/ybD/O6ybBY3sqOpLcUyeO3uRq0qsxdplzKV5u3HZYq9VeUrX9BL01NMpi7F4mw2W5zbHx0dtXfv3p3H7f2qAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAu2/8A2yPEQcSFJ20AAAAASUVORK5CYII=" alt="menu-icon">
+        </a>
+        <a href="#" class="button header__btn"> Get Started <img class="header__arrow-icon"
+            src="/new-era-landing/assets/arrow-right-BhS00nUD.png" alt="">
+        </a>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Hero  -->
+      <section class="hero">
+        <div class="wrapper hero__wrapper">
+          <div class="hero__radial-purple"></div>
+          <div class="hero__radial-blue"></div>
+          <!-- Hero principal content -->
+          <div class="hero__content">
+            <span class="hero__message-top fs--sm">
+              <a href="#" class="hero__message-read-it">READ IT</a>Introducing the Future </span>
+            <h1 class="hero__title">THE <br class="break-word"> MODERN ERA</h1>
+            <p class="hero__text fs--lg">Embrace the Power of Artificial Intelligence for Limiteless Possibilities and
+              smart solutions</p>
+            <a href="#" class="button hero__btn"> Get Started <img class="hero__arrow-icon"
+                src="/new-era-landing/assets/arrow-right-BhS00nUD.png" alt="">
+            </a>
+          </div>
+          <!-- Hero carousel swiper -->
+          <div class="hero__swiper swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide  hero__swiper_item">
+                <img class="hero__swiper_image" src="/new-era-landing/assets/angular-ComHpq-s.svg" alt="">
+              </div>
+              <div class="swiper-slide  hero__swiper_item">
+                <img class="hero__swiper_image" src="/new-era-landing/assets/amazon-BnHT_oA9.svg" alt="">
+              </div>
+              <div class="swiper-slide  hero__swiper_item">
+                <img class="hero__swiper_image" src="data:image/svg+xml,%3csvg%20width='272'%20height='36'%20viewBox='0%200%20272%2036'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M108%204.51775V10.5017H98.9703V35.2665H91.9886V10.5017H82.9589V4.51775H108ZM135.916%204.51828V35.267H128.893V4.51775L135.916%204.51828ZM259.853%204.51828V29.1986H272V35.2665H252.83V4.51775L259.853%204.51828ZM221.449%204.51828L234.116%2035.267H226.397L224.15%2029.1996H211.185L208.919%2035.2665H201.408L214.199%204.51775L221.449%204.51828ZM170.673%204.51828C179.068%204.51828%20187.421%208.96272%20187.421%2019.8087C187.421%2030.0316%20179.234%2035.266%20171.089%2035.266H159.295V4.51828H170.673ZM170.632%2010.5017H166.111V29.2405H170.466C176.325%2029.2405%20180.231%2025.5845%20180.231%2019.7668C180.231%2014.2402%20176.284%2010.5017%20170.632%2010.5017ZM217.699%2011.7109L213.068%2023.7368H222.288L217.699%2011.7109ZM27.0008%2017.9988L36.0012%2026.9992L27.0008%2036.0002L18.0003%2026.9992L27.0008%2017.9988ZM8.99991%200L18.0003%208.99938L8.99991%2017.9988L0%208.99938L8.99991%200ZM45.0011%200L54.0005%208.99884L45.0011%2017.9993L36.0002%208.99938L27.0008%2017.9988L18.0003%208.99778L27.0008%200L36.0012%208.99778L45.0011%200Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+              </div>
+              <div class="swiper-slide  hero__swiper_item">
+                <img class="hero__swiper_image" src="/new-era-landing/assets/google-BrEUEhcR.svg" alt="">
+              </div>
+              <div class="swiper-slide  hero__swiper_item">
+                <img class="hero__swiper_image" src="data:image/svg+xml,%3csvg%20width='251'%20height='88'%20viewBox='0%200%20251%2088'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M250.01%200L67.1055%2077.8788C51.9381%2084.2957%2039.1979%2087.5146%2028.8953%2087.5146C17.2281%2087.5146%208.7589%2083.4311%203.50865%2075.2536C0.206404%2070.0034%20-0.762393%2063.3468%200.591839%2055.2735C1.94607%2047.2002%205.55041%2038.606%2011.384%2029.4598C16.2488%2022.0636%2024.218%2012.3443%2035.3123%200.29168C31.5492%206.21557%2028.7898%2012.72%2027.1452%2019.5426C24.2284%2031.9911%2026.8535%2041.127%2035.0206%2046.9606C38.9062%2049.6795%2044.2502%2051.0441%2051.063%2051.0441C56.5008%2051.0441%2062.6261%2050.1691%2069.4389%2048.419L250.01%200Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+              </div>
+              <div class="swiper-slide  hero__swiper_item">
+                <img class="hero__swiper_image" src="/new-era-landing/assets/coca-cola-DAstovDh.svg" alt="">
+              </div>
+              <div class="swiper-slide  hero__swiper_item">
+                <img class="hero__swiper_image" src="/new-era-landing/assets/salesforce-ClJvEyHe.svg" alt="">
+              </div>
+            </div>
+            <p class="hero__swiper_paragraph">Companies All Over the World Trust Rombo for AI-Powered Solutions <br>
+              Empowering Success, Globally</p>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="wrapper features__wrapper">
+          <h2 class="features__title">Experience Rombo's AI-Powered Features</h2>
+          <div class="features__grid" id="features__grid"></div>
+        </div>
+      </section>
+      <section class="levels">
+        <div class="wrapper levels__wrapper">
+          <h2 class="levels__title">Reach New Levels of Efficiency with AI</h2>
+          <p class="levels__text fs--lg">Reach new efficiency heights now. Integrate intelligence everywhere.</p>
+          <article class="levels__container-image">
+            <img class="levels__image" src="/new-era-landing/assets/bar-charts-Cz7ZkM33.jpeg" alt="image_levels">
+          </article>
+          <div class="levels__features">
+            <div class="levels__item">
+              <span><img class="levels__item-icon" src="data:image/svg+xml,%3csvg%20width='42'%20height='42'%20viewBox='0%200%2042%2042'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M19.9584%2024.7497H17.7438C14.5563%2024.7497%2012.9646%2024.7497%2012.3626%2023.7142C11.7584%2022.6788%2012.5459%2021.2934%2014.1209%2018.5246L19.0521%209.8434C19.8334%208.4684%2020.2251%207.7809%2020.6126%207.88507C21.0001%207.98715%2021.0001%208.77673%2021.0001%2010.358V16.208C21.0001%2016.6996%2021.0001%2016.9455%2021.1521%2017.0976C21.3042%2017.2496%2021.5501%2017.2496%2022.0417%2017.2496H24.2563C27.4438%2017.2496%2029.0355%2017.2496%2029.6376%2018.2851C30.2417%2019.3205%2029.4542%2020.7059%2027.8792%2023.4746L22.948%2032.1559C22.1667%2033.5309%2021.7751%2034.2184%2021.3876%2034.1142C21.0001%2034.0142%2021.0001%2033.2246%2021.0001%2031.6434V25.7913C21.0001%2025.2997%2021.0001%2025.0538%2020.848%2024.9017C20.6959%2024.7497%2020.4501%2024.7497%2019.9584%2024.7497Z'%20fill='%23DEDEDE'/%3e%3cpath%20d='M21%2039.75C31.3553%2039.75%2039.75%2031.3553%2039.75%2021C39.75%2010.6447%2031.3553%202.25%2021%202.25C10.6447%202.25%202.25%2010.6447%202.25%2021C2.25%2031.3553%2010.6447%2039.75%2021%2039.75Z'%20stroke='%23DEDEDE'%20stroke-width='4.16667'/%3e%3c/svg%3e" alt=""></span>
+              <h4 class="levels__item-title">AI-Powered Analytics</h4>
+              <p class="levels__item-text">Unleash data potential with Rombo's AI analytics. GAin insights, make
+                informed decisions.</p>
+            </div>
+            <div class="levels__item">
+              <span><img class="levels__item-icon" src="data:image/svg+xml,%3csvg%20width='45'%20height='45'%20viewBox='0%200%2045%2045'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M31.4025%2029.875H32.125C34.25%2029.875%2036.375%2029.45%2038.2238%2028.7275C36.7363%2037.8013%2028.8737%2044.75%2019.375%2044.75C8.75%2044.75%200.25%2036.1862%200.25%2025.625C0.25%2016.1263%207.19875%208.26375%2016.2725%206.77625C15.55%208.625%2015.125%2010.75%2015.125%2012.875V13.5975C10.195%2015.34%206.625%2020.0575%206.625%2025.625C6.625%2029.0065%207.9683%2032.2495%2010.3594%2034.6406C12.7505%2037.0317%2015.9935%2038.375%2019.375%2038.375C24.9425%2038.375%2029.66%2034.805%2031.4025%2029.875ZM32.125%2019.25C33.8158%2019.25%2035.4373%2018.5784%2036.6328%2017.3828C37.8283%2016.1873%2038.5%2014.5658%2038.5%2012.875C38.5%2011.1842%2037.8283%209.56274%2036.6328%208.36719C35.4373%207.17165%2033.8158%206.5%2032.125%206.5C30.4342%206.5%2028.8127%207.17165%2027.6172%208.36719C26.4216%209.56274%2025.75%2011.1842%2025.75%2012.875C25.75%2014.5658%2026.4216%2016.1873%2027.6172%2017.3828C28.8127%2018.5784%2030.4342%2019.25%2032.125%2019.25ZM32.125%200.125C35.5065%200.125%2038.7495%201.4683%2041.1406%203.85939C43.5317%206.25048%2044.875%209.49349%2044.875%2012.875C44.875%2016.2565%2043.5317%2019.4995%2041.1406%2021.8906C38.7495%2024.2817%2035.5065%2025.625%2032.125%2025.625C28.7435%2025.625%2025.5005%2024.2817%2023.1094%2021.8906C20.7183%2019.4995%2019.375%2016.2565%2019.375%2012.875C19.375%205.82%2025.0912%200.125%2032.125%200.125Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt=""></span>
+              <h4 class="levels__item-title">Sales Management</h4>
+              <p class="levels__item-text">Streamlined sales with Rombo's management tools. Track leads, optimize
+                workflows.</p>
+            </div>
+            <div class="levels__item">
+              <span><img class="levels__item-icon" src="data:image/svg+xml,%3csvg%20width='38'%20height='44'%20viewBox='0%200%2038%2044'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M36%2012L19%202L2%2012V32L19%2042L36%2032V12Z'%20stroke='%23DEDEDE'%20stroke-width='4'%20stroke-linejoin='round'/%3e%3cpath%20d='M19%2020V28M27%2016V28M11%2024V28'%20stroke='%23DEDEDE'%20stroke-width='4'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e" alt=""></span>
+              <h4 class="levels__item-title">AI-Powered Metrics</h4>
+              <p class="levels__item-text">Real-time AI metrics by Rombo. Track progress, seize opportunities, refine
+                strategies.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="discover">
+        <div class="wrapper discover__wrapper">
+          <div class="discover__top">
+            <h2 class="discover__title">Discover How AI Can Enhance Your<br> Performance</h2>
+            <p class="discover__description fs--lg ">Supporting decision making with advanced analytics and intelligent
+              recommendations</p>
+          </div>
+          <div class="discover__bottom">
+            <ul class="discover__container-dropdown">
+              <li class="dropdown dropdown__list">
+                <div class="dropdown__link">
+                  <div class="dropdown__container-icon-title">
+                    <img class="dropdown__icon" src="data:image/svg+xml,%3csvg%20width='51'%20height='51'%20viewBox='0%200%2051%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M0.374879%208.7499C0.375684%207.21468%200.79846%205.70921%201.59701%204.39802C2.39555%203.08683%203.53914%202.02036%204.90281%201.31516C6.26647%200.609951%207.79774%200.293144%209.32929%200.399355C10.8608%200.505566%2012.3337%201.03071%2013.587%201.9174C14.8402%202.80409%2015.8257%204.0182%2016.4356%205.42707C17.0455%206.83594%2017.2564%208.38534%2017.0453%209.90598C16.8342%2011.4266%2016.2092%2012.86%2015.2385%2014.0494C14.2679%2015.2388%2012.989%2016.1386%2011.5415%2016.6503V24.2018C13.2384%2023.2204%2015.1646%2022.7051%2017.1249%2022.7082H33.8749C35.3557%2022.7082%2036.7758%2022.12%2037.8229%2021.0729C38.87%2020.0258%2039.4582%2018.6057%2039.4582%2017.1249V16.6503C37.5948%2015.9917%2036.0242%2014.6956%2035.024%2012.991C34.0239%2011.2864%2033.6586%209.28304%2033.9927%207.33511C34.3267%205.38718%2035.3387%203.62009%2036.8498%202.34617C38.3608%201.07225%2040.2735%200.373535%2042.2499%200.373535C44.2262%200.373535%2046.139%201.07225%2047.65%202.34617C49.161%203.62009%2050.173%205.38718%2050.5071%207.33511C50.8412%209.28304%2050.4759%2011.2864%2049.4757%2012.991C48.4756%2014.6956%2046.905%2015.9917%2045.0415%2016.6503V17.1249C45.0415%2020.0865%2043.8651%2022.9268%2041.7709%2025.0209C39.6767%2027.1151%2036.8365%2028.2916%2033.8749%2028.2916H17.1249C15.6441%2028.2916%2014.2239%2028.8798%2013.1769%2029.9269C12.1298%2030.974%2011.5415%2032.3941%2011.5415%2033.8749V34.3495C13.405%2035.0081%2014.9756%2036.3042%2015.9757%2038.0088C16.9759%2039.7134%2017.3412%2041.7168%2017.0071%2043.6647C16.673%2045.6126%2015.661%2047.3797%2014.15%2048.6536C12.639%2049.9275%2010.7262%2050.6263%208.74988%2050.6263C6.77351%2050.6263%204.86077%2049.9275%203.34976%2048.6536C1.83874%2047.3797%200.82675%2045.6126%200.492656%2043.6647C0.158563%2041.7168%200.523882%2039.7134%201.52404%2038.0088C2.5242%2036.3042%204.0948%2035.0081%205.95821%2034.3495V16.6503C4.32488%2016.0724%202.91089%2015.0023%201.91097%2013.5874C0.911044%2012.1726%200.374379%2010.4825%200.374879%208.7499Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="github-branch-icon">
+                    <span class="dropdown__title">Github Actions</span>
+                  </div>
+                  <img class="dropdown__arrow" src="data:image/svg+xml,%3csvg%20width='96'%20height='51'%20viewBox='0%200%2096%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M88.7513%201.1262L47.6813%2041.1608L6.61135%201.1262C5.87756%200.409472%204.89252%200.00821668%203.86678%200.00821668C2.84103%200.00821668%201.85599%200.409472%201.1222%201.1262C0.766907%201.47432%200.484644%201.88983%200.291949%202.34841C0.0992538%202.80698%200%203.2994%200%203.79682C0%204.29423%200.0992538%204.78665%200.291949%205.24522C0.484644%205.7038%200.766907%206.11931%201.1222%206.46743L44.8135%2049.0658C45.5808%2049.8137%2046.6098%2050.2323%2047.6813%2050.2323C48.7528%2050.2323%2049.7819%2049.8137%2050.5491%2049.0658L94.2404%206.47565C94.5982%206.12727%2094.8826%205.71074%2095.0768%205.25064C95.271%204.79055%2095.371%204.29621%2095.371%203.79682C95.371%203.29742%2095.271%202.80308%2095.0768%202.34299C94.8826%201.88289%2094.5982%201.46636%2094.2404%201.11798C93.5066%200.401252%2092.5216%200%2091.4958%200C90.4701%200%2089.4851%200.401252%2088.7513%201.11798V1.1262Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <input type="checkbox" class="dropdown__check">
+                </div>
+                <div class="dropdown__content">
+                  <p class="dropdown__text">Github Actions simplifies DevOps automation by allowing you to create tasks
+                    directly within your Github repository. Github Actions run in isolated container, ensuring reliable
+                    and secure workflows.</p>
+                </div>
+              </li>
+              <li class="dropdown dropdown__list">
+                <div class="dropdown__link">
+                  <div class="dropdown__container-icon-title">
+                    <img class="dropdown__icon" src="data:image/svg+xml,%3csvg%20width='30'%20height='35'%20viewBox='0%200%2030%2035'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M2.54183%2017.5C2.08875%2017.5%201.65423%2017.6799%201.33386%2018.0003C1.01348%2018.3207%200.833496%2018.7552%200.833496%2019.2083V32.875C0.833496%2033.328%201.01348%2033.7626%201.33386%2034.0829C1.65423%2034.4033%202.08875%2034.5833%202.54183%2034.5833C2.99491%2034.5833%203.42943%2034.4033%203.7498%2034.0829C4.07018%2033.7626%204.25016%2033.328%204.25016%2032.875V19.2083C4.25016%2018.7552%204.07018%2018.3207%203.7498%2018.0003C3.42943%2017.6799%202.99491%2017.5%202.54183%2017.5ZM11.0835%200.416626C10.6304%200.416626%2010.1959%200.596611%209.87552%200.916985C9.55515%201.23736%209.37516%201.67188%209.37516%202.12496V32.875C9.37516%2033.328%209.55515%2033.7626%209.87552%2034.0829C10.1959%2034.4033%2010.6304%2034.5833%2011.0835%2034.5833C11.5366%2034.5833%2011.9711%2034.4033%2012.2915%2034.0829C12.6118%2033.7626%2012.7918%2033.328%2012.7918%2032.875V2.12496C12.7918%201.67188%2012.6118%201.23736%2012.2915%200.916985C11.9711%200.596611%2011.5366%200.416626%2011.0835%200.416626ZM28.1668%2024.3333C27.7137%2024.3333%2027.2792%2024.5133%2026.9589%2024.8337C26.6385%2025.154%2026.4585%2025.5885%2026.4585%2026.0416V32.875C26.4585%2033.328%2026.6385%2033.7626%2026.9589%2034.0829C27.2792%2034.4033%2027.7137%2034.5833%2028.1668%2034.5833C28.6199%2034.5833%2029.0544%2034.4033%2029.3748%2034.0829C29.6952%2033.7626%2029.8752%2033.328%2029.8752%2032.875V26.0416C29.8752%2025.5885%2029.6952%2025.154%2029.3748%2024.8337C29.0544%2024.5133%2028.6199%2024.3333%2028.1668%2024.3333ZM19.6252%2010.6666C19.1721%2010.6666%2018.7376%2010.8466%2018.4172%2011.167C18.0968%2011.4874%2017.9168%2011.9219%2017.9168%2012.375V32.875C17.9168%2033.328%2018.0968%2033.7626%2018.4172%2034.0829C18.7376%2034.4033%2019.1721%2034.5833%2019.6252%2034.5833C20.0782%2034.5833%2020.5128%2034.4033%2020.8331%2034.0829C21.1535%2033.7626%2021.3335%2033.328%2021.3335%2032.875V12.375C21.3335%2011.9219%2021.1535%2011.4874%2020.8331%2011.167C20.5128%2010.8466%2020.0782%2010.6666%2019.6252%2010.6666Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="analytics-icon">
+                    <span class="dropdown__title">Predictive Analytics</span>
+                  </div>
+                  <img class="dropdown__arrow" src="data:image/svg+xml,%3csvg%20width='96'%20height='51'%20viewBox='0%200%2096%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M88.7513%201.1262L47.6813%2041.1608L6.61135%201.1262C5.87756%200.409472%204.89252%200.00821668%203.86678%200.00821668C2.84103%200.00821668%201.85599%200.409472%201.1222%201.1262C0.766907%201.47432%200.484644%201.88983%200.291949%202.34841C0.0992538%202.80698%200%203.2994%200%203.79682C0%204.29423%200.0992538%204.78665%200.291949%205.24522C0.484644%205.7038%200.766907%206.11931%201.1222%206.46743L44.8135%2049.0658C45.5808%2049.8137%2046.6098%2050.2323%2047.6813%2050.2323C48.7528%2050.2323%2049.7819%2049.8137%2050.5491%2049.0658L94.2404%206.47565C94.5982%206.12727%2094.8826%205.71074%2095.0768%205.25064C95.271%204.79055%2095.371%204.29621%2095.371%203.79682C95.371%203.29742%2095.271%202.80308%2095.0768%202.34299C94.8826%201.88289%2094.5982%201.46636%2094.2404%201.11798C93.5066%200.401252%2092.5216%200%2091.4958%200C90.4701%200%2089.4851%200.401252%2088.7513%201.11798V1.1262Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <input type="checkbox" class="dropdown__check">
+                </div>
+                <div class="dropdown__content">
+                  <p class="dropdown__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, at
+                    esse! Quo deserunt repellat error at maiores voluptatem ipsum cum?</p>
+                </div>
+              </li>
+              <li class="dropdown dropdown__list">
+                <div class="dropdown__link">
+                  <div class="dropdown__container-icon-title">
+                    <img class="dropdown__icon" src="data:image/svg+xml,%3csvg%20width='40'%20height='44'%20viewBox='0%200%2040%2044'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M20.1667%2015.875C29.6476%2015.875%2037.3333%2012.9928%2037.3333%209.4375C37.3333%205.88217%2029.6476%203%2020.1667%203C10.6858%203%203%205.88217%203%209.4375C3%2012.9928%2010.6858%2015.875%2020.1667%2015.875Z'%20stroke='%23DEDEDE'%20stroke-width='4.29167'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M7.37106%2022.3125C4.65229%2023.4498%203%2024.9562%203%2026.6042C3%2030.1598%2010.6864%2033.0417%2020.1667%2033.0417C29.647%2033.0417%2037.3333%2030.1598%2037.3333%2026.6042C37.3333%2024.9562%2035.681%2023.4498%2032.9623%2022.3125'%20stroke='%23DEDEDE'%20stroke-width='4.29167'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M3%209.4375V18.0208C3%2021.5765%2010.6864%2024.4583%2020.1667%2024.4583C29.647%2024.4583%2037.3333%2021.5765%2037.3333%2018.0208V9.4375M3%2026.6042V35.1875C3%2038.7431%2010.6864%2041.625%2020.1667%2041.625C29.647%2041.625%2037.3333%2038.7431%2037.3333%2035.1875V26.6042'%20stroke='%23DEDEDE'%20stroke-width='4.29167'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/svg%3e" alt="data-icon">
+                    <span class="dropdown__title">Data Insights</span>
+                  </div>
+                  <img class="dropdown__arrow" src="data:image/svg+xml,%3csvg%20width='96'%20height='51'%20viewBox='0%200%2096%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M88.7513%201.1262L47.6813%2041.1608L6.61135%201.1262C5.87756%200.409472%204.89252%200.00821668%203.86678%200.00821668C2.84103%200.00821668%201.85599%200.409472%201.1222%201.1262C0.766907%201.47432%200.484644%201.88983%200.291949%202.34841C0.0992538%202.80698%200%203.2994%200%203.79682C0%204.29423%200.0992538%204.78665%200.291949%205.24522C0.484644%205.7038%200.766907%206.11931%201.1222%206.46743L44.8135%2049.0658C45.5808%2049.8137%2046.6098%2050.2323%2047.6813%2050.2323C48.7528%2050.2323%2049.7819%2049.8137%2050.5491%2049.0658L94.2404%206.47565C94.5982%206.12727%2094.8826%205.71074%2095.0768%205.25064C95.271%204.79055%2095.371%204.29621%2095.371%203.79682C95.371%203.29742%2095.271%202.80308%2095.0768%202.34299C94.8826%201.88289%2094.5982%201.46636%2094.2404%201.11798C93.5066%200.401252%2092.5216%200%2091.4958%200C90.4701%200%2089.4851%200.401252%2088.7513%201.11798V1.1262Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <input type="checkbox" class="dropdown__check">
+                </div>
+                <div class="dropdown__content">
+                  <p class="dropdown__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id numquam aliquam
+                    similique at quibusdam? Error incidunt molestias nisi eveniet cum.</p>
+                </div>
+              </li>
+            </ul>
+            <div class="discover__container-image">
+              <img class="discover__image" src="/new-era-landing/assets/an_cat_astronaut_in_the_moon_pur-BYqUwx8l.png"
+                alt="discover-world">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="achieve">
+        <div class="wrapper achieve__wrapper">
+          <h2 class="achieve__title">Achieve More With AI</h2>
+          <p class="achieve__description">Get higher throughput and enhanced productivity in your business with
+            artificial intelligence.</p>
+          <div class="achieve__card">
+            <div class="achieve__card-text">
+              <h3 class="achieve__card-title">Leverage Rombo's AI Sharing Capabilities</h3>
+              <p class="achieve__card-description">Share Brilliance with Ease: Integrate Rombo's AI Sharing Into Your
+                Workflow for Enhanced Collaboration.</p>
+              <ul class="achieve__card-list">
+                <li class="achieve__card-item-list">
+                  <img class="achieve__card-icon" src="data:image/svg+xml,%3csvg%20width='30'%20height='30'%20viewBox='0%200%2030%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M15%2030C16.9698%2030%2018.9204%2029.612%2020.7403%2028.8582C22.5601%2028.1044%2024.2137%2026.9995%2025.6066%2025.6066C26.9995%2024.2137%2028.1044%2022.5601%2028.8582%2020.7403C29.612%2018.9204%2030%2016.9698%2030%2015C30%2013.0302%2029.612%2011.0796%2028.8582%209.25975C28.1044%207.43986%2026.9995%205.78628%2025.6066%204.3934C24.2137%203.00052%2022.5601%201.89563%2020.7403%201.14181C18.9204%200.387986%2016.9698%20-2.93527e-08%2015%200C11.0218%205.92805e-08%207.20644%201.58035%204.3934%204.3934C1.58035%207.20644%200%2011.0218%200%2015C0%2018.9782%201.58035%2022.7936%204.3934%2025.6066C7.20644%2028.4196%2011.0218%2030%2015%2030ZM14.6133%2021.0667L22.9467%2011.0667L20.3867%208.93333L13.22%2017.5317L9.51167%2013.8217L7.155%2016.1783L12.155%2021.1783L13.445%2022.4683L14.6133%2021.0667Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                  <span class="achieve__card-item-text"><b>Instant Sharing:</b> Share your brilliance with just a click,
+                    thanks to Rombo's intuitive AI sharing feature.</span>
+                </li>
+                <li class="achieve__card-item-list">
+                  <img class="achieve__card-icon" src="data:image/svg+xml,%3csvg%20width='30'%20height='30'%20viewBox='0%200%2030%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M15%2030C16.9698%2030%2018.9204%2029.612%2020.7403%2028.8582C22.5601%2028.1044%2024.2137%2026.9995%2025.6066%2025.6066C26.9995%2024.2137%2028.1044%2022.5601%2028.8582%2020.7403C29.612%2018.9204%2030%2016.9698%2030%2015C30%2013.0302%2029.612%2011.0796%2028.8582%209.25975C28.1044%207.43986%2026.9995%205.78628%2025.6066%204.3934C24.2137%203.00052%2022.5601%201.89563%2020.7403%201.14181C18.9204%200.387986%2016.9698%20-2.93527e-08%2015%200C11.0218%205.92805e-08%207.20644%201.58035%204.3934%204.3934C1.58035%207.20644%200%2011.0218%200%2015C0%2018.9782%201.58035%2022.7936%204.3934%2025.6066C7.20644%2028.4196%2011.0218%2030%2015%2030ZM14.6133%2021.0667L22.9467%2011.0667L20.3867%208.93333L13.22%2017.5317L9.51167%2013.8217L7.155%2016.1783L12.155%2021.1783L13.445%2022.4683L14.6133%2021.0667Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                  <span class="achieve__card-item-text"><b>Streamlined Integration:</b> Seamlessly integrate Rombo into
+                    your existing workflow for enhanced productivity.</span>
+                </li>
+                <li class="achieve__card-item-list">
+                  <img class="achieve__card-icon" src="data:image/svg+xml,%3csvg%20width='30'%20height='30'%20viewBox='0%200%2030%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M15%2030C16.9698%2030%2018.9204%2029.612%2020.7403%2028.8582C22.5601%2028.1044%2024.2137%2026.9995%2025.6066%2025.6066C26.9995%2024.2137%2028.1044%2022.5601%2028.8582%2020.7403C29.612%2018.9204%2030%2016.9698%2030%2015C30%2013.0302%2029.612%2011.0796%2028.8582%209.25975C28.1044%207.43986%2026.9995%205.78628%2025.6066%204.3934C24.2137%203.00052%2022.5601%201.89563%2020.7403%201.14181C18.9204%200.387986%2016.9698%20-2.93527e-08%2015%200C11.0218%205.92805e-08%207.20644%201.58035%204.3934%204.3934C1.58035%207.20644%200%2011.0218%200%2015C0%2018.9782%201.58035%2022.7936%204.3934%2025.6066C7.20644%2028.4196%2011.0218%2030%2015%2030ZM14.6133%2021.0667L22.9467%2011.0667L20.3867%208.93333L13.22%2017.5317L9.51167%2013.8217L7.155%2016.1783L12.155%2021.1783L13.445%2022.4683L14.6133%2021.0667Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                  <span class="achieve__card-item-text"><b>Enhanced Collaboration: </b>Collaborate effortlessly with
+                    your team, unlocking new levels of creativity and efficiency.</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div class="achieve__container-image">
+                <img class="achieve__image" src="/new-era-landing/assets/share-document-CBoNCXys.png" alt="share-document">
+              </div>
+            </div>
+          </div>
+          <div class="achieve__card achieve__card-bottom">
+            <div class="achieve__card-text">
+              <h3 class="achieve__card-title">Supercharge Decision-Making with Rombo.</h3>
+              <p class="achieve__card-description">Harness the Power of AI Analytics: Make Informed Decisions and Drive
+                Sucess with Rombo's Advanced Insights.</p>
+              <ul class="achieve__card-list">
+                <li class="achieve__card-item-list">
+                  <img class="achieve__card-icon" src="data:image/svg+xml,%3csvg%20width='30'%20height='30'%20viewBox='0%200%2030%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M15%2030C16.9698%2030%2018.9204%2029.612%2020.7403%2028.8582C22.5601%2028.1044%2024.2137%2026.9995%2025.6066%2025.6066C26.9995%2024.2137%2028.1044%2022.5601%2028.8582%2020.7403C29.612%2018.9204%2030%2016.9698%2030%2015C30%2013.0302%2029.612%2011.0796%2028.8582%209.25975C28.1044%207.43986%2026.9995%205.78628%2025.6066%204.3934C24.2137%203.00052%2022.5601%201.89563%2020.7403%201.14181C18.9204%200.387986%2016.9698%20-2.93527e-08%2015%200C11.0218%205.92805e-08%207.20644%201.58035%204.3934%204.3934C1.58035%207.20644%200%2011.0218%200%2015C0%2018.9782%201.58035%2022.7936%204.3934%2025.6066C7.20644%2028.4196%2011.0218%2030%2015%2030ZM14.6133%2021.0667L22.9467%2011.0667L20.3867%208.93333L13.22%2017.5317L9.51167%2013.8217L7.155%2016.1783L12.155%2021.1783L13.445%2022.4683L14.6133%2021.0667Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                  <span class="achieve__card-item-text"><b>Advanced AI-Powered Analytics: </b>Access in-depth insights
+                    and uncover hidden opportunities for growth.</span>
+                </li>
+                <li class="achieve__card-item-list">
+                  <img class="achieve__card-icon" src="data:image/svg+xml,%3csvg%20width='30'%20height='30'%20viewBox='0%200%2030%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M15%2030C16.9698%2030%2018.9204%2029.612%2020.7403%2028.8582C22.5601%2028.1044%2024.2137%2026.9995%2025.6066%2025.6066C26.9995%2024.2137%2028.1044%2022.5601%2028.8582%2020.7403C29.612%2018.9204%2030%2016.9698%2030%2015C30%2013.0302%2029.612%2011.0796%2028.8582%209.25975C28.1044%207.43986%2026.9995%205.78628%2025.6066%204.3934C24.2137%203.00052%2022.5601%201.89563%2020.7403%201.14181C18.9204%200.387986%2016.9698%20-2.93527e-08%2015%200C11.0218%205.92805e-08%207.20644%201.58035%204.3934%204.3934C1.58035%207.20644%200%2011.0218%200%2015C0%2018.9782%201.58035%2022.7936%204.3934%2025.6066C7.20644%2028.4196%2011.0218%2030%2015%2030ZM14.6133%2021.0667L22.9467%2011.0667L20.3867%208.93333L13.22%2017.5317L9.51167%2013.8217L7.155%2016.1783L12.155%2021.1783L13.445%2022.4683L14.6133%2021.0667Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                  <span class="achieve__card-item-text"><b>Data-Driven Decision-Making: </b>Make strategic choices
+                    backed by data, optimizing your business outcomes.</span>
+                </li>
+                <li class="achieve__card-item-list">
+                  <img class="achieve__card-icon" src="data:image/svg+xml,%3csvg%20width='30'%20height='30'%20viewBox='0%200%2030%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M15%2030C16.9698%2030%2018.9204%2029.612%2020.7403%2028.8582C22.5601%2028.1044%2024.2137%2026.9995%2025.6066%2025.6066C26.9995%2024.2137%2028.1044%2022.5601%2028.8582%2020.7403C29.612%2018.9204%2030%2016.9698%2030%2015C30%2013.0302%2029.612%2011.0796%2028.8582%209.25975C28.1044%207.43986%2026.9995%205.78628%2025.6066%204.3934C24.2137%203.00052%2022.5601%201.89563%2020.7403%201.14181C18.9204%200.387986%2016.9698%20-2.93527e-08%2015%200C11.0218%205.92805e-08%207.20644%201.58035%204.3934%204.3934C1.58035%207.20644%200%2011.0218%200%2015C0%2018.9782%201.58035%2022.7936%204.3934%2025.6066C7.20644%2028.4196%2011.0218%2030%2015%2030ZM14.6133%2021.0667L22.9467%2011.0667L20.3867%208.93333L13.22%2017.5317L9.51167%2013.8217L7.155%2016.1783L12.155%2021.1783L13.445%2022.4683L14.6133%2021.0667Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                  <span class="achieve__card-item-text"><b>Real-Time Performance Monitoring: </b>Stay ahead of the curve
+                    with real-time analytics and proactive adjustments.</span>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <div class="achieve__container-image-with-bg">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="why-rombo">
+        <div class="wrapper why-rombo__wrapper">
+          <h2 class="why-rombo__title">Why Rombo?</h2>
+          <p class="why-rombo__text fs--lg">Increases productivity by automating repetitive processes and freeing time
+            for high-value activities</p>
+          <div class="why-rombo__grid" id="why-rombo__grid"></div>
+        </div>
+      </section>
+      <section class="developers">
+        <div class="wrapper developers__wrapper">
+          <h2 class="developers__title">Developers, integrate in a flash with API First</h2>
+          <p class="developers__text fs--lg">Our comprehensive documentation and SDKs for major languages allow you to
+            start working with the APIs quickly.</p>
+          <div class="developers__container-content">
+            <div class="developers__grid">
+              <div class="developers__item">
+                <span class="developers__item-container-icon">
+                  <img class="developers__item-icon" src="data:image/svg+xml,%3csvg%20width='52'%20height='52'%20viewBox='0%200%2052%2052'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M0%200H52V52H0V0ZM30.94%2042.9289C32.3844%2045.76%2035.3022%2047.9267%2039.8667%2047.9267C44.4889%2047.9267%2047.9556%2045.5289%2047.9556%2041.1089C47.9556%2037.0356%2045.6156%2035.2156%2041.4556%2033.4244L40.2422%2032.9044C38.1333%2032.0089%2037.2378%2031.4022%2037.2378%2029.9578C37.2378%2028.7733%2038.1333%2027.8489%2039.5778%2027.8489C40.9644%2027.8489%2041.8889%2028.4556%2042.7267%2029.9578L46.5111%2027.4444C44.9222%2024.6711%2042.6689%2023.6022%2039.5778%2023.6022C35.2156%2023.6022%2032.4133%2026.3756%2032.4133%2030.0444C32.4133%2034.0311%2034.7533%2035.9089%2038.2778%2037.4111L39.4911%2037.9311C41.7444%2038.9133%2043.0733%2039.52%2043.0733%2041.1956C43.0733%2042.5822%2041.7733%2043.5933%2039.7511%2043.5933C37.3533%2043.5933%2035.9667%2042.3511%2034.9267%2040.6178L30.94%2042.9289ZM28.8889%2023.8333H14.4444V28.1667H18.7778V49.1111H23.8333V28.1667H28.8889V23.8333Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                </span>
+                <h4 class="developers__item-title">TypeScript</h4>
+                <p class="developers__item-text">Seamless AI integration for TypeScript projects.</p>
+              </div>
+              <div class="developers__item">
+                <span class="developers__item-container-icon">
+                  <img class="developers__item-icon" src="data:image/svg+xml,%3csvg%20width='32'%20height='17'%20viewBox='0%200%2032%2017'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M15.6923%200C6.89285%200%200%203.73346%200%208.5C0%2013.2665%206.89285%2017%2015.6923%2017C24.4918%2017%2031.3846%2013.2665%2031.3846%208.5C31.3846%203.73346%2024.4918%200%2015.6923%200ZM14.0629%202.61538H15.776L15.232%205.23077H16.762C17.7323%205.23077%2018.3835%205.36677%2018.7549%205.70546C19.1172%206.04023%2019.227%206.58946%2019.0818%207.33746L18.4018%2010.4615H16.66L17.2864%207.57285C17.3622%207.17662%2017.3322%206.90069%2017.1988%206.75554C17.0667%206.61039%2016.7751%206.53846%2016.3383%206.53846H14.9665L14.1388%2010.4615H12.4231L14.0629%202.61538ZM6.53846%205.23077H10.0248C11.6868%205.23077%2012.6938%206.34492%2012.3002%208.007C11.8425%209.93846%2010.6185%2010.4615%208.364%2010.4615H7.28646L6.94515%2012.4231H5.21246L6.53846%205.23077ZM20.2692%205.23077H23.7555C25.4176%205.23077%2026.4245%206.34492%2026.0309%208.007C25.5732%209.93846%2024.3479%2010.4615%2022.0948%2010.4615H21.0172L20.6759%2012.4231H18.9432L20.2692%205.23077ZM8.02269%206.53846L7.52969%209.15385H8.64777C9.61546%209.15385%2010.5152%209.044%2010.6655%207.60161C10.7218%207.04192%2010.489%206.53846%209.37092%206.53846H8.02269ZM21.7535%206.53846L21.2605%209.15385H22.3785C23.3462%209.15385%2024.2459%209.044%2024.3963%207.60161C24.4525%207.04192%2024.2211%206.53846%2023.1017%206.53846H21.7535Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                </span>
+                <h4 class="developers__item-title">PHP SDK</h4>
+                <p class="developers__item-text">AI capabilities for PHP applications.</p>
+              </div>
+              <div class="developers__item">
+                <span class="developers__item-container-icon">
+                  <img class="developers__item-icon" src="data:image/svg+xml,%3csvg%20width='31'%20height='33'%20viewBox='0%200%2031%2033'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M15.5%2032.9394C15.0297%2032.9394%2014.5925%2032.8171%2014.1841%2032.6053L10.0192%2030.2156C9.39362%2029.8828%209.70713%2029.7618%209.8955%2029.7013C10.7398%2029.4291%2010.8965%2029.3686%2011.7738%2028.8832C11.8673%2028.8227%2011.9937%2028.8529%2012.0872%2028.9134L15.2814%2030.7601C15.4051%2030.8206%2015.5633%2030.8206%2015.6568%2030.7601L28.1514%2023.7696C28.2751%2023.7091%2028.3384%2023.5881%2028.3384%2023.4368V9.48606C28.3384%209.33481%2028.2765%209.21381%2028.1514%209.15331L15.6568%202.19444C15.5316%202.13394%2015.3749%202.13394%2015.2814%202.19444L2.78675%209.15331C2.66162%209.21381%202.59838%209.36506%202.59838%209.48606V23.4368C2.59838%2023.5578%202.66162%2023.7091%202.78675%2023.7696L6.1995%2025.6767C8.0475%2026.5842%209.20525%2025.5254%209.20525%2024.4667V10.6974C9.20525%2010.5159%209.362%2010.3344%209.582%2010.3344H11.1784C11.3668%2010.3344%2011.5538%2010.4857%2011.5538%2010.6974V24.4653C11.5538%2026.8564%2010.2076%2028.2479%207.85912%2028.2479C7.13862%2028.2479%206.57487%2028.2479%204.9785%2027.4917L1.69088%2025.6767C1.29472%2025.4588%200.963889%2025.1392%200.732565%2024.7508C0.50124%2024.3623%200.377802%2023.9192%200.375%2023.4671V9.51631C0.375%208.60881%200.8755%207.76181%201.69088%207.30806L14.1855%200.316186C14.5923%200.107579%2015.0429%20-0.0012207%2015.5%20-0.0012207C15.9571%20-0.0012207%2016.4077%200.107579%2016.8145%200.316186L29.3105%207.30669C30.1245%207.76044%2030.625%208.60744%2030.625%209.51494V23.4657C30.625%2024.3732%2030.1245%2025.2202%2029.3105%2025.6753L16.8159%2032.6644C16.4006%2032.8445%2015.9527%2032.9371%2015.5%2032.9367M19.3514%2023.3433C13.872%2023.3433%2012.7445%2020.9233%2012.7445%2018.8649C12.7445%2018.6834%2012.9012%2018.5019%2013.1199%2018.5019H14.7479C14.9363%2018.5019%2015.0916%2018.6229%2015.0916%2018.8044C15.3433%2020.4077%2016.0638%2021.1942%2019.383%2021.1942C22.0134%2021.1942%2023.1409%2020.6194%2023.1409%2019.2582C23.1409%2018.4717%2022.8274%2017.8969%2018.7257%2017.5037C15.3116%2017.1696%2013.1831%2016.4449%2013.1831%2013.8118C13.1831%2011.3602%2015.3116%209.90681%2018.8825%209.90681C22.8906%209.90681%2024.8638%2011.2392%2025.114%2014.1446C25.1112%2014.2429%2025.0781%2014.338%2025.0191%2014.4168C24.9572%2014.4773%2024.8637%2014.5378%2024.7689%2014.5378H23.1409C23.0618%2014.5359%2022.9855%2014.5083%2022.9235%2014.4592C22.8614%2014.4101%2022.8171%2014.3421%2022.7971%2014.2656C22.4204%2012.6018%2021.4496%2012.0559%2018.8825%2012.0559C16.0005%2012.0559%2015.6568%2013.0239%2015.6568%2013.7513C15.6568%2014.6286%2016.0638%2014.9008%2019.9468%2015.3848C23.7981%2015.8688%2025.6145%2016.5646%2025.6145%2019.1661C25.5829%2021.8308%2023.3292%2023.3433%2019.3514%2023.3433Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                </span>
+                <h4 class="developers__item-title">Node.js SDK</h4>
+                <p class="developers__item-text">Powerful Ai functionalities for Node.js projects.</p>
+              </div>
+              <div class="developers__item">
+                <span class="developers__item-container-icon">
+                  <img class="developers__item-icon" src="data:image/svg+xml,%3csvg%20width='50'%20height='50'%20viewBox='0%200%2050%2050'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M24.8677%200.782473C24.8232%200.78544%2024.7788%200.789739%2024.7345%200.79537H24.4724L24.2662%200.898481C24.0759%200.962361%2023.8952%201.052%2023.7292%201.16489L14.8918%205.5856L5.586%2014.8912L1.18667%2023.6854C1.05807%2023.8683%200.958087%2024.0696%200.890169%2024.2826L0.795655%2024.4716V24.7122C0.776448%2024.8792%200.776448%2025.0479%200.795655%2025.2149V43.2717L1.2124%2043.8474C1.57417%2044.3487%201.98213%2044.8491%202.45833%2045.3254C4.7504%2047.6173%207.76611%2048.7868%2011.0938%2049.0802C11.3199%2049.1536%2011.5564%2049.1898%2011.7941%2049.1876H46.6542C46.8443%2049.2199%2047.0378%2049.2272%2047.2298%2049.2091C47.2816%2049.2037%2047.3332%2049.1966%2047.3845%2049.1876H49.189V47.3745C49.2287%2047.1356%2049.2287%2046.8917%2049.189%2046.6528V11.7935C49.1912%2011.5558%2049.1549%2011.3193%2049.0815%2011.0932C48.788%207.76583%2047.6184%204.75053%2045.3266%202.45793H45.3223V2.45369C44.847%201.981%2044.3493%201.57636%2043.853%201.21635L43.2729%200.79531H25.19C25.083%200.783134%2024.9753%200.778883%2024.8677%200.782473ZM32.9319%205.19458H41.7693C41.9187%205.32058%2042.087%205.44004%2042.2204%205.5727C43.8301%207.18506%2044.7007%209.49269%2044.781%2012.3048L32.9319%205.19458ZM24.8979%205.50398L28.8762%207.88831L27.3338%2017.3399L23.4371%2021.2365L17.3406%2027.3328L7.88884%2028.8751L5.50445%2024.8969L9.20356%2017.4946L17.4952%209.20303L24.8979%205.50398ZM32.9362%2010.3242L40.3945%2014.8009L32.034%2015.8448L32.9362%2010.3242ZM43.7628%2018.8135C42.4786%2022.9457%2039.9689%2027.4459%2036.3517%2031.6419L32.3647%2020.2355L43.7628%2018.8135ZM28.4723%2022.4223L31.7203%2031.7193L22.4232%2028.4713L26.5476%2024.347L28.4723%2022.4223ZM44.7896%2027.3285V41.6778L38.7102%2035.5987C41.1383%2032.9505%2043.1743%2030.1599%2044.7896%2027.3285ZM15.8454%2032.033L14.8015%2040.3933L10.3248%2032.9352L15.8454%2032.033ZM20.2363%2032.3638L31.6386%2036.3506C27.4437%2039.966%2022.9456%2042.4777%2018.8142%2043.7615L20.2363%2032.3638ZM5.19499%2032.9309L12.3053%2044.7798C9.48988%2044.6994%207.18087%2043.827%205.56875%2042.2149C5.4379%2042.084%205.31972%2041.9159%205.19499%2041.7681V32.9309ZM35.5998%2038.7092L41.679%2044.7884H27.3294C30.161%2043.173%2032.9517%2041.1369%2035.5998%2038.7092Z'%20fill='white'/%3e%3c/svg%3e" alt="">
+                </span>
+                <h4 class="developers__item-title">Ruby SDK</h4>
+                <p class="developers__item-text">AI insights and automation for Ruby applications.</p>
+              </div>
+            </div>
+            <img class="developers__image" src="/new-era-landing/assets/developer-image-DHpRKHqp.png"
+              alt="developers-image-terminal-code">
+          </div>
+        </div>
+      </section>
+      <section class="prices">
+        <div class="wrapper prices__wrapper">
+          <h2 class="prices__title">Get the Features You Want at a Price You'll Love</h2>
+          <div class="prices__billed">
+            <span class="prices__billed-month">Billed monthly</span>
+            <div class="prices__billed-button">
+              <div class="prices__toggle"></div>
+              <input type="checkbox" class="prices__check">
+            </div>
+            <span class="prices__billed-yearly">Billed yearly</span>
+          </div>
+          <div class="prices__grid">
+            <div class="prices__card">
+              <img class="prices__card-icon" src="data:image/svg+xml,%3csvg%20width='24'%20height='23'%20viewBox='0%200%2024%2023'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M12%200C5.4%200%200%204.5%200%2010C0%2011.7%200.5%2013.3%201.4%2014.8C0.5%2015.6%200%2016.8%200%2018C0%2020.8%202.7%2023%206%2023C8.5%2023%2010.6%2021.8%2011.5%2020H12.5C13.4%2021.8%2015.5%2023%2018%2023C21.3%2023%2024%2020.8%2024%2018C24%2016.8%2023.5%2015.6%2022.6%2014.8C23.5%2013.4%2024%2011.8%2024%2010C24%204.5%2018.6%200%2012%200ZM12%202C17.5%202%2022%205.6%2022%2010C22%2010.31%2021.974%2010.611%2021.93%2010.91C21.924%2010.954%2021.913%2010.996%2021.906%2011.04C21.862%2011.3054%2021.8019%2011.5679%2021.726%2011.826L21.696%2011.932C21.6194%2012.1685%2021.5312%2012.4011%2021.432%2012.629C21.007%2013.579%2020.358%2014.449%2019.5%2015.199C20.976%2015.691%2021.963%2016.766%2021.994%2017.943C21.962%2019.525%2020.18%2020.9%2018%2020.9C16.4%2020.9%2014.9%2020.1%2014.3%2019L13.7%2018H10.3L9.7%2019.1C9.1%2020.2%207.6%2021%206%2021C3.8%2021%202%2019.6%202%2018C2%2017.803%202.03%2017.62%202.08%2017.447L2.088%2017.422C2.228%2016.959%202.506%2016.592%202.723%2016.305C3.158%2015.833%203.768%2015.443%204.5%2015.199C3.96777%2014.7349%203.50026%2014.2015%203.11%2013.613L3.1%2013.6C2.75539%2013.0645%202.48303%2012.4858%202.29%2011.879L2.285%2011.867C2.20199%2011.5943%202.13751%2011.3164%202.092%2011.035C2.085%2010.993%202.076%2010.952%202.07%2010.91C2.02446%2010.6088%202.00107%2010.3046%202%2010C2%205.6%206.5%202%2012%202ZM6%208V11H8V8H6ZM9%208V11H17V8H9ZM7%2012.2V13.6C9.5%2016%2013.3%2016.6%2016%2015.3V14C13.1%2015.1%209.6%2014.5%207%2012.2Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="hobby-icon">
+              <h4 class="prices__card-title fs--lg">Hobby</h4>
+              <div class="prices__card-price-container">
+                <span class="prices__card-money">$8 / mo</span>
+                <small class="prices__card-small">billed $96 yearly</small>
+              </div>
+              <ul class="prices__card-list">
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">5 projects</span>
+                </li>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">1000 requests</span>
+                </li>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">Email support</span>
+                </li>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">Basic analytics</span>
+                </li>
+              </ul>
+              <button class="prices__button fs--lg">Start a free trial</button>
+            </div>
+            <div class="prices__card">
+              <div class="prices__card-gradient"></div>
+              <div class="prices__card-popular">Most popular</div>
+              <img class="prices__card-icon" src="data:image/svg+xml,%3csvg%20width='51'%20height='49'%20viewBox='0%200%2051%2049'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M8.78913%2019.0646L0%2026.6394L25.5578%2048.9014L51%2026.7551L42.1531%2019.1225L25.5%2043.5238L8.78913%2019.0646ZM32.4966%2027.7959L35.33%2019.4116L43.5408%2014.8435L32.4966%2027.7959ZM18.5612%2027.9115L15.6123%2019.4116L7.51702%2014.9013L18.5612%2027.9115ZM25.5%200.0986938L47.1259%209.8129H39.3776L37.7585%2012.2993H13.3572L11.7381%209.8129H3.98975L25.5%200.0986938ZM23.8232%206.05454L25.5%206.92174L27.1768%206.05444V4.31974L25.5%203.45234L23.8232%204.31974V6.05454ZM7.51702%2014.8437H43.5409L32.3231%2016.5205L32.4966%2027.7959L25.9626%2035.8912V25.3095C25.9626%2024.8434%2025.0953%2024.8434%2025.0953%2025.3095V35.8911L18.5612%2027.9115L18.7347%2016.5204L7.51702%2014.8437ZM25.8477%2023.2502C26.3092%2022.9842%2026.3092%2022.3154%2025.8477%2022.0493C25.3861%2021.7832%2024.8061%2022.1175%2024.8061%2022.6498C24.8061%2023.182%2025.3861%2023.5164%2025.8477%2023.2502ZM25.8477%2020.359C26.3092%2020.0931%2026.3092%2019.4242%2025.8477%2019.1581C25.3861%2018.8921%2024.8061%2019.2264%2024.8061%2019.7586C24.8061%2020.2908%2025.3861%2020.6252%2025.8477%2020.359ZM25.8477%2017.3522C26.3092%2017.0863%2026.3092%2016.4174%2025.8477%2016.1513C25.3861%2015.8852%2024.8061%2016.2196%2024.8061%2016.7518C24.8061%2017.284%2025.3861%2017.6184%2025.8477%2017.3522Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="pro-icon">
+              <h4 class="prices__card-title ">Pro</h4>
+              <div class="prices__card-price-container">
+                <span class="prices__card-money">$38 / mo</span>
+                <small class="prices__card-small">billed $456 yearly</small>
+              </div>
+              <ul class="prices__card-list">
+                <span class="prices__card-additional-message">Everything in Hobby, and</span>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">15 projects</span>
+                </li>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">5000 requests</span>
+                </li>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">Priority email</span>
+                </li>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">Advanced analytics</span>
+                </li>
+              </ul>
+              <button class="prices__button fs--lg">Start a free trial</button>
+            </div>
+            <div class="prices__card">
+              <img class="prices__card-icon" src="data:image/svg+xml,%3csvg%20width='99'%20height='49'%20viewBox='0%200%2099%2049'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M40.0312%2037.125C35.7802%2040.8375%2030.5625%2043.4375%2024.6445%2043.4375C13.9685%2043.4375%205.3125%2034.9551%205.3125%2024.5C5.3125%2014.0449%2013.9685%205.5625%2024.6445%205.5625C40.0312%205.5625%2049.5%2024.5%2049.5%2024.5C49.5%2024.5%2058.9688%2043.4375%2074.3555%2043.4375C85.0315%2043.4375%2093.6875%2034.9551%2093.6875%2024.5C93.6875%2014.0449%2085.0315%205.5625%2074.3555%205.5625C68.5618%205.5625%2063.1784%208.2749%2058.9688%2011.875'%20stroke='%23DEDEDE'%20stroke-width='9.46875'%20stroke-miterlimit='10'%20stroke-linecap='round'/%3e%3c/svg%3e" alt="">
+              <h4 class="prices__card-title ">Growth</h4>
+              <div class="prices__card-price-container">
+                <span class="prices__card-money">$99 / mo</span>
+                <small class="prices__card-small">billed $1188 yearly</small>
+              </div>
+              <ul class="prices__card-list">
+                <span class="prices__card-additional-message">Everything in Pro, and</span>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">Unlimited projects</span>
+                </li>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">20,000 requests</span>
+                </li>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">Chat, and phone support</span>
+                </li>
+                <li class="prices__card-item-list">
+                  <img class="prices__card-item-icon" src="data:image/svg+xml,%3csvg%20width='34'%20height='34'%20viewBox='0%200%2034%2034'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M14.5099%2023.1116L8.49902%2017.0993L10.5022%2015.0961L14.5099%2019.1025L22.5226%2011.0884L24.5272%2013.093L14.5099%2023.1116Z'%20fill='%23DEDEDE'/%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M1.41602%2017.0001C1.41602%208.39383%208.3931%201.41675%2016.9993%201.41675C25.6056%201.41675%2032.5827%208.39383%2032.5827%2017.0001C32.5827%2025.6063%2025.6056%2032.5834%2016.9993%2032.5834C8.3931%2032.5834%201.41602%2025.6063%201.41602%2017.0001ZM16.9993%2029.7501C15.325%2029.7501%2013.667%2029.4203%2012.1201%2028.7795C10.5732%2028.1388%209.16768%2027.1996%207.98374%2026.0157C6.79979%2024.8317%205.86063%2023.4262%205.21988%2021.8793C4.57914%2020.3324%204.24935%2018.6744%204.24935%2017.0001C4.24935%2015.3257%204.57914%2013.6678%205.21988%2012.1209C5.86063%2010.574%206.79979%209.16842%207.98374%207.98447C9.16768%206.80052%2010.5732%205.86136%2012.1201%205.22062C13.667%204.57987%2015.325%204.25008%2016.9993%204.25008C20.3809%204.25008%2023.6239%205.59338%2026.015%207.98447C28.406%2010.3756%2029.7493%2013.6186%2029.7493%2017.0001C29.7493%2020.3816%2028.406%2023.6246%2026.015%2026.0157C23.6239%2028.4068%2020.3809%2029.7501%2016.9993%2029.7501Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                  <span class="prices__card-item-text">Premium analytics</span>
+                </li>
+              </ul>
+              <button class="prices__button fs--lg">Start a free trial</button>
+            </div>
+          </div>
+          <p class="prices__message-brand fs--lg">Trusted by Top Brands Worldwide</p>
+          <div class="prices__gradient-bottom"></div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="wrapper faq__wrapper">
+          <h2 class="faq__title">FAQs</h2>
+          <ul class="faq__dropdown">
+            <li class="faq__item">
+              <div class="faq__link">
+                <span class="faq__question">How does Rombo's AI integration work?</span>
+                <img class="faq__arrow-icon" src="data:image/svg+xml,%3csvg%20width='96'%20height='51'%20viewBox='0%200%2096%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M88.7513%201.1262L47.6813%2041.1608L6.61135%201.1262C5.87756%200.409472%204.89252%200.00821668%203.86678%200.00821668C2.84103%200.00821668%201.85599%200.409472%201.1222%201.1262C0.766907%201.47432%200.484644%201.88983%200.291949%202.34841C0.0992538%202.80698%200%203.2994%200%203.79682C0%204.29423%200.0992538%204.78665%200.291949%205.24522C0.484644%205.7038%200.766907%206.11931%201.1222%206.46743L44.8135%2049.0658C45.5808%2049.8137%2046.6098%2050.2323%2047.6813%2050.2323C48.7528%2050.2323%2049.7819%2049.8137%2050.5491%2049.0658L94.2404%206.47565C94.5982%206.12727%2094.8826%205.71074%2095.0768%205.25064C95.271%204.79055%2095.371%204.29621%2095.371%203.79682C95.371%203.29742%2095.271%202.80308%2095.0768%202.34299C94.8826%201.88289%2094.5982%201.46636%2094.2404%201.11798C93.5066%200.401252%2092.5216%200%2091.4958%200C90.4701%200%2089.4851%200.401252%2088.7513%201.11798V1.1262Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                <input type="checkbox" class="faq__check">
+              </div>
+              <!-- <div class="faq__answer"> -->
+              <p class="faq__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti expedita nihil a.
+                Accusantium quia assumenda qui autem rem dignissimos unde.</p>
+              <!-- </div> -->
+            </li>
+            <li class="faq__item">
+              <div class="faq__link">
+                <span class="faq__question">Can I upgrade or downgrade my pricing plan at any time?</span>
+                <img class="faq__arrow-icon" src="data:image/svg+xml,%3csvg%20width='96'%20height='51'%20viewBox='0%200%2096%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M88.7513%201.1262L47.6813%2041.1608L6.61135%201.1262C5.87756%200.409472%204.89252%200.00821668%203.86678%200.00821668C2.84103%200.00821668%201.85599%200.409472%201.1222%201.1262C0.766907%201.47432%200.484644%201.88983%200.291949%202.34841C0.0992538%202.80698%200%203.2994%200%203.79682C0%204.29423%200.0992538%204.78665%200.291949%205.24522C0.484644%205.7038%200.766907%206.11931%201.1222%206.46743L44.8135%2049.0658C45.5808%2049.8137%2046.6098%2050.2323%2047.6813%2050.2323C48.7528%2050.2323%2049.7819%2049.8137%2050.5491%2049.0658L94.2404%206.47565C94.5982%206.12727%2094.8826%205.71074%2095.0768%205.25064C95.271%204.79055%2095.371%204.29621%2095.371%203.79682C95.371%203.29742%2095.271%202.80308%2095.0768%202.34299C94.8826%201.88289%2094.5982%201.46636%2094.2404%201.11798C93.5066%200.401252%2092.5216%200%2091.4958%200C90.4701%200%2089.4851%200.401252%2088.7513%201.11798V1.1262Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                <input type="checkbox" class="faq__check">
+              </div>
+              <div class="faq__answer">
+                <p class="faq__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et id libero ducimus
+                  obcaecati repellat nam placeat, magni voluptatum repellendus ullam.</p>
+              </div>
+            </li>
+            <li class="faq__item">
+              <div class="faq__link">
+                <span class="faq__question">What kind of support do you offer for users?</span>
+                <img class="faq__arrow-icon" src="data:image/svg+xml,%3csvg%20width='96'%20height='51'%20viewBox='0%200%2096%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M88.7513%201.1262L47.6813%2041.1608L6.61135%201.1262C5.87756%200.409472%204.89252%200.00821668%203.86678%200.00821668C2.84103%200.00821668%201.85599%200.409472%201.1222%201.1262C0.766907%201.47432%200.484644%201.88983%200.291949%202.34841C0.0992538%202.80698%200%203.2994%200%203.79682C0%204.29423%200.0992538%204.78665%200.291949%205.24522C0.484644%205.7038%200.766907%206.11931%201.1222%206.46743L44.8135%2049.0658C45.5808%2049.8137%2046.6098%2050.2323%2047.6813%2050.2323C48.7528%2050.2323%2049.7819%2049.8137%2050.5491%2049.0658L94.2404%206.47565C94.5982%206.12727%2094.8826%205.71074%2095.0768%205.25064C95.271%204.79055%2095.371%204.29621%2095.371%203.79682C95.371%203.29742%2095.271%202.80308%2095.0768%202.34299C94.8826%201.88289%2094.5982%201.46636%2094.2404%201.11798C93.5066%200.401252%2092.5216%200%2091.4958%200C90.4701%200%2089.4851%200.401252%2088.7513%201.11798V1.1262Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                <input type="checkbox" class="faq__check">
+              </div>
+              <div class="faq__answer">
+                <p class="faq__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, corrupti officia
+                  unde laudantium aperiam esse molestiae sint natus sapiente cum.</p>
+              </div>
+            </li>
+            <li class="faq__item">
+              <div class="faq__link">
+                <span class="faq__question">is my data secure with Rombo's AI platform?</span>
+                <img class="faq__arrow-icon" src="data:image/svg+xml,%3csvg%20width='96'%20height='51'%20viewBox='0%200%2096%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M88.7513%201.1262L47.6813%2041.1608L6.61135%201.1262C5.87756%200.409472%204.89252%200.00821668%203.86678%200.00821668C2.84103%200.00821668%201.85599%200.409472%201.1222%201.1262C0.766907%201.47432%200.484644%201.88983%200.291949%202.34841C0.0992538%202.80698%200%203.2994%200%203.79682C0%204.29423%200.0992538%204.78665%200.291949%205.24522C0.484644%205.7038%200.766907%206.11931%201.1222%206.46743L44.8135%2049.0658C45.5808%2049.8137%2046.6098%2050.2323%2047.6813%2050.2323C48.7528%2050.2323%2049.7819%2049.8137%2050.5491%2049.0658L94.2404%206.47565C94.5982%206.12727%2094.8826%205.71074%2095.0768%205.25064C95.271%204.79055%2095.371%204.29621%2095.371%203.79682C95.371%203.29742%2095.271%202.80308%2095.0768%202.34299C94.8826%201.88289%2094.5982%201.46636%2094.2404%201.11798C93.5066%200.401252%2092.5216%200%2091.4958%200C90.4701%200%2089.4851%200.401252%2088.7513%201.11798V1.1262Z'%20fill='%23DEDEDE'/%3e%3c/svg%3e" alt="">
+                <input type="checkbox" class="faq__check">
+              </div>
+              <div class="faq__answer">
+                <p class="faq__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, corrupti officia
+                  unde laudantium aperiam esse molestiae sint natus sapiente cum.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="customers">
+        <div class="wrapper customers__wrapper">
+          <h2 class="customers__title">What Our Customers Are Saying About Us</h2>
+          <p class="customers__description fs--lg">Authentic stories prove how we deliver for clients.</p>
+          <div class="customers__grid" id="customers__grid"></div>
+        </div>
+        </div>
+      </section>
+      <section class="business">
+        <div class="wrapper business__wrapper">
+          <div class="business__gradient-purple"></div>
+          <h2 class="business__title">BUSINESS EMPOWERED BY AI. <br>AVAILABLE NOW.</h2>
+          <a href="#" class="button business__btn"> Get Started <img class="business__arrow-icon"
+              src="/new-era-landing/assets/arrow-right-BhS00nUD.png" alt="">
+          </a>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="wrapper footer__wrapper">
+          <div class="footer__grid">
+            <ul class="footer__brand footer__column">
+              <li><img class="footer__brand-icon" src="/new-era-landing/assets/new-era-log-Cbm6GsDO.png" alt=""></li>
+              <li class="footer__link">Rombo</li>
+              <li class="footer__link">°2024</li>
+            </ul>
+            <ul class="footer__products footer__column">
+              <li class="footer__link">Product</li>
+              <li class="footer__link">Features</li>
+              <li class="footer__link">Pricing</li>
+              <li class="footer__link">Developers</li>
+              <li class="footer__link">FAQs</li>
+            </ul>
+            <ul class="footer__social footer__column">
+              <li class="footer__link">Follow</li>
+              <li class="footer__link">Twitter</li>
+              <li class="footer__link">Github</li>
+            </ul>
+          </div>
+          <p class="footer__developer">Developed by John Asto</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+
+</html>

@@ -10,7 +10,6 @@ const featuresRomboHTML = ({ image, title, text }) => {
   `;
 }
 
-
 const renderHTMLFeatures = () => {
   const container = document.getElementById('why-rombo__grid')
   const fragment = document.createDocumentFragment();
@@ -26,5 +25,6 @@ const renderHTMLFeatures = () => {
 
   container.appendChild(fragment);
 }
+
 
 renderHTMLFeatures()

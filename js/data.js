@@ -14,7 +14,7 @@ export const columns = [
         job: 'CFO, LeadingEdge Enterprises'
       },
       {
-        classname: 'mary',
+        classname: 'emily',
         comment: "We are truly impressed with Rombo's AI integrations, especially how they have boosted our customer support and loyalty. The AI chatbot has been a game-changer for enhancing our user experience!",
         name: 'Emily White',
         job: 'CEO, Ecommerce Emporium'
@@ -37,7 +37,7 @@ export const columns = [
         job: 'CFO, LeadingEdge Enterprises'
       },
       {
-        classname: 'mary',
+        classname: 'emily',
         comment: "We are truly impressed with Rombo's AI integrations, especially how they have boosted our customer support and loyalty. The AI chatbot has been a game-changer for enhancing our user experience!",
         name: 'Emily White',
         job: 'CEO, Ecommerce Emporium'
@@ -60,7 +60,7 @@ export const columns = [
         job: 'CFO, LeadingEdge Enterprises'
       },
       {
-        classname: 'mary',
+        classname: 'emily',
         comment: "We are truly impressed with Rombo's AI integrations, especially how they have boosted our customer support and loyalty. The AI chatbot has been a game-changer for enhancing our user experience!",
         name: 'Emily White',
         job: 'CEO, Ecommerce Emporium'

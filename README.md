@@ -1,22 +1,27 @@
 # New era landing ➤
 
-### HTML, SASS y Vanilla JS
+### Description
 
-### 
+This is a landing page built using HTML, SASS, and Vanilla JavaScript. It is fully responsive and incorporates technologies like Vite, Swiper.js, and follows the BEM methodology for CSS organization.
 
-Este proyecto consiste en la creación de una landing page utilizando tecnologías web como <strong>HTML, SASS (Syntactically Awesome Stylesheets) y JavaScript puro (Vanilla JS)</strong>.  Para la gestión de dependencias y el desarrollo, se emplean Vite y Yarn.
+The design is inspired by Tuki Joshua.
 
-Diseño inspirado por Tuki Joshua.
+### Technologies Used
 
-Además, se ha seguido la metodología <strong>BEM</strong> (Bloque, Elemento, Modificador) para la estructura y nomenclatura del código CSS.
+- HTML: Used for structuring the content of the landing page.
+- SASS: Utilized for styling the elements with a more organized and modular approach.
+- Vite: Employed for dependency management and fast development experience.
+- Swiper.js: Integrated for creating interactive and responsive sliders or carousels.
 
-## Requisitos
+### Requirements
 
-Antes de comenzar, asegúrate de tener instalados en tu sistema:
+Before getting started, ensure that you have the following installed on your system:
 
 - Node.js
 - Yarn
 
-## Autor
+## Developer
 
 *John Asto* - *john.azt.dev@gmail.com*
+
+Feel free to reach out if you have any further questions or suggestions!

@@ -68,6 +68,10 @@
   }
 
   &__developer {
-    text-align: right;
+    text-align: center;
+
+    @include u.breakpoint(large) {
+      text-align: right;
+    }
   }
 }

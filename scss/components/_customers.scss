@@ -1,6 +1,8 @@
 @use '../util/' as u;
 
 .customers {
+  margin-bottom: clamp(u.rem(95), 3.107189119170984rem + 12.305699481865286vw, u.rem(190));
+
   &__title {
     text-align: center;
     margin-bottom: u.rem(35);
@@ -12,22 +14,57 @@
     margin-bottom: u.rem(70);
   }
 
-  &__grid {}
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: u.rem(30);
+    height: u.rem(760);
+    overflow-y: hidden;
 
-  &__column {}
+    @include u.breakpoint(medium) {
+      grid-template-columns: repeat(2, 1fr);
+    }
 
-  &__column-one {}
+    @include u.breakpoint(large) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 
-  &__column-two {}
+  &__column {
+    animation: moveCardInY 10s infinite;
+  }
 
-  &__column-three {}
+  &__column-one {
+    translate: 0 -10%;
+    animation-delay: 1s;
+  }
+
+  &__column-two {
+    display: none;
+    translate: 0 -10%;
+    animation-delay: 3s;
+
+    @include u.breakpoint(medium) {
+      display: block;
+    }
+  }
+
+  &__column-three {
+    display: none;
+    translate: 0 -10%;
+    animation-delay: 7s;
+
+    @include u.breakpoint(large) {
+      display: block;
+    }
+  }
 
   &__card {
     border-radius: var(--rounded-md);
     border: 1px solid rgba(var(--clr-dark-light), 1);
     padding: u.rem(32);
     color: var(--clr-gray);
-    margin-bottom: u.rem(20);
+    margin-bottom: u.rem(40);
   }
 
   &__card-text {
@@ -100,5 +137,18 @@
     grid-column: 5 / 6;
     grid-row: 3 / 4
   }
+}
 
+@keyframes moveCardInY {
+  0% {
+    translate: 0 -10%;
+  }
+
+  50% {
+    translate: 0 3%;
+  }
+
+  100% {
+    trasnlate: 0 -10%;
+  }
 }

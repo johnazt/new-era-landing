@@ -27,4 +27,4 @@ const renderHTMLFeatures = () => {
 }
 
 
-renderHTMLFeatures()
+document.addEventListener("DOMContentLoaded", renderHTMLFeatures)

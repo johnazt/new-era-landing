@@ -1,31 +1,31 @@
 export const featuresRombo = [
   {
-    image: './assets/images/power.svg', 
+    image: 'images/power.svg', 
     title: 'AI-Powered Efficiency',
     text: "Boost your productivity and streamline workflows with Rombo's cutting-edge AI capabilities, delivering efficient results every time."
   },
   {
-    image: './assets/images/data-decisions.svg', 
+    image: 'images/data-decisions.svg', 
     title: 'Data-Driven Decisions',
     text: "Empower your business with data-backed insights and make informed decisions to outperform your competition."
   },
   {
-    image: './assets/images/user-experience.svg', 
+    image: 'images/user-experience.svg', 
     title: 'Intuitive User Experience',
     text: "Experience a seamless and user-friendly interface that ensures a smooth AI-powered jouney for all users."
   },
   {
-    image: './assets/images/scalability.svg', 
+    image: 'images/scalability.svg', 
     title: 'Scalability & Flexibility',
     text: "Rombo's agile architecture allows ease scalability, adapting to your business needs as you grow."
   },
   {
-    image: './assets/images/security-icon.svg', 
+    image: 'images/security-icon.svg', 
     title: 'Top-notch Security',
     text: "Rest easy knowing your data is protected with Rombo's robust security measures, safeguarding your information."
   },
   {
-    image: './assets/images/ai-solutions.svg', 
+    image: 'images/ai-solutions.svg', 
     title: 'Innovative AI Solutions',
     text: "Stay ahead of the curve with Rombo's continuous innovation, providing you with latest AI advancements."
   },
@@ -108,31 +108,31 @@ export const features = [
   {
     title: 'MindSync',
     text: 'Seamless AI-Powered Team Collaboration Solution',
-    image: './assets/images/mindsync.svg',
+    image: 'images/mindsync.svg',
     alt: 'mindsync-image'
   },
   {
     title: 'SyncConnect',
     text: 'AI-Powered Integrations Made Easy',
-    image: './assets/images/synconnect.svg',
+    image: 'images/synconnect.svg',
     alt: 'syncconnect-image'
   },
   {
     title: 'RomboX',
     text: 'Supercharge Your Business with AI',
-    image: './assets/images/waves.svg',
+    image: 'images/waves.svg',
     alt: 'rombox-image'
   },
   {
     title: 'Integration AI',
     text: 'AI-powered Integration Hub for Developers',
-    image: './assets/images/circle-wave.png',
+    image: 'images/circle-wave.png',
     alt: 'integration-image'
   },
   {
     title: 'Shortcuts',
     text: 'Keyboard Shortcuts for increased Productivity',
-    image: './assets/images/shortcuts.svg',
+    image: 'images/shortcuts.svg',
     alt: 'shortcuts-image'
   }
 ]

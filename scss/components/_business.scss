@@ -1,7 +1,6 @@
 @use '../util/' as u;
 
 .business {
-  // height: u.rem(400);
   margin-bottom: u.rem(160);
 
   &__wrapper {
@@ -15,8 +14,6 @@
     text-align: center;
     margin-bottom: u.rem(40)
   }
-
-  &__btn {}
 
   &__arrow-icon {
     width: u.rem(20);

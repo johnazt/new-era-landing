@@ -4,11 +4,11 @@ const container = document.getElementById('customers__grid');
 const fragment = document.createDocumentFragment();
 
 const renderColumns = () => {
-  columns.forEach(column => {
+  columns.forEach(({number, customers}) => {
     const columnElement = document.createElement('div');
-    columnElement.classList.add('customers__column', `customers__column-${column.number}`)
+    columnElement.classList.add('customers__column', `customers__column-${number}`)
 
-    column.customers.forEach(customer => {
+    customers.forEach(customer => {
       const card = document.createElement('div')
       card.classList.add('customers__card', `customers__card-${customer.classname}`)
 

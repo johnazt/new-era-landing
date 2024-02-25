@@ -9,7 +9,7 @@
 const triggerElementOne = document.querySelector(".levels__title");
 const triggerElementTwo = document.querySelector(".features__grid");
 
-const animateOnScroll = function (div, speed = 500, offset = 0) {
+const animateOnScroll = (div, speed = 500, offset = 0) => {
   const scrollPercent = window.pageYOffset - div.offsetTop;
   return (scrollPercent + offset) / speed;
 };

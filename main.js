@@ -1,5 +1,5 @@
 import './js/anime.js'
-import './js/swiper_main.js'
+import './libs/swiper_main.js'
 import './js/data.js'
 import './js/render-why-rombo.js'
 import './js/renderCustomer.js'

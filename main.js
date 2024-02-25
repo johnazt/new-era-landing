@@ -1,3 +1,4 @@
+import './js/anime.js'
 import './js/swiper_main.js'
 import './js/data.js'
 import './js/render-why-rombo.js'
